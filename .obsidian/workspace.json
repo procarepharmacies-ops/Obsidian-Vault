@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ad514d47b75cdabf",
+        "id": "208c2620dff36c42",
         "type": "tabs",
         "children": [
           {
-            "id": "f0d565c96a7356c1",
+            "id": "07d895b2526ac917",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -178,9 +178,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "cbf3e38cf2a67d60",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -188,11 +198,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "periodic-notes:Open today's daily note": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": false,
@@ -204,18 +209,52 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
-      "templater-obsidian:Templater": false
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "periodic-notes:Open today's daily note": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "systemsculpt-ai:YouTube Canvas": false,
+      "systemsculpt-ai:Process Meeting Audio": false,
+      "systemsculpt-ai:Audio Recorder": false,
+      "systemsculpt-ai:Open SystemSculpt Search": false,
+      "systemsculpt-ai:Open SystemSculpt Janitor": false,
+      "systemsculpt-ai:Open SystemSculpt History": false,
+      "systemsculpt-ai:Open SystemSculpt Chat": false,
+      "systemsculpt-ai:Open Similar Notes Panel": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro timer": false,
+      "tasknotes:Open pomodoro statistics": false,
+      "tasknotes:Create new task": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f0d565c96a7356c1",
+  "active": "07d895b2526ac917",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled.canvas",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views",
+    "TaskNotes",
+    "SystemSculpt/Extractions",
+    "README.md",
     "AI-Brain/claude.md",
     "gemini.md",
     "progress.md",
     "findings.md",
     "2026-05-10.md",
     "task_plan.md",
-    "scripts/07-add-duckduckgo-search.ps1",
     "Untitled Kanban 1.md",
     "Untitled Kanban.md",
     "skills/⚙️  NotebookLM + AntiGravity.md",
@@ -233,18 +272,6 @@
     "skills/README.md",
     "skills/obsidian-brain-curator.md",
     "skills/blast-protocol.md",
-    "skills/other-skill.md",
-    "skills",
-    "AI-Brain/🤖 Antigravity MCP Guide.md",
-    "scripts/06-add-brave-search.ps1",
-    "scripts/05-install-antigravity-mcp.ps1",
-    "AI-Brain/🔌 Plugin Guide.md",
-    "scripts/04-install-power-plugins.ps1",
-    "scripts/03-mark-done.ps1",
-    "scripts/02-check-status.ps1",
-    "scripts/01-install-plugins.ps1",
-    "scripts",
-    "AI-Brain/tools/parse_memories.py",
-    "Untitled.canvas"
+    "skills/other-skill.md"
   ]
 }
