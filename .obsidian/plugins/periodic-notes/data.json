@@ -1,0 +1,25 @@
+{
+  "installedVersion": "1.0.0-beta1",
+  "activeCalendarSet": "Default",
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "calendarSets": [
+    {
+      "day": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "",
+        "templatePath": "",
+        "folder": ""
+      },
+      "week": {},
+      "month": {},
+      "quarter": {},
+      "year": {},
+      "id": "Default",
+      "ctime": "2026-05-10T02:38:30+03:00"
+    }
+  ],
+  "enableTimelineComplication": true
+}

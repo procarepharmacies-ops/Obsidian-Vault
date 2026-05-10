@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "de5a1f3f0f9067b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad514d47b75cdabf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0d565c96a7356c1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0a96685c4b9856d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b379b75dfdb3b754",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2100997e37c1ae3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "33f0737ea089c334",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"skill_name\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a24e1cb93e06b705",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "63196b3dbb9f5ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "88eb1cac66bc47bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "044950f441301454",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ef69b12e9b83a9dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "31d50bba39a42095",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7b3700a035d3a9f9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8f7abd58f11cc413",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ab622150a21e14d0",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "cebc8f2d8c9964e6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
+      "periodic-notes:Open today's daily note": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "f0d565c96a7356c1",
+  "lastOpenFiles": [
+    "AI-Brain/claude.md",
+    "gemini.md",
+    "progress.md",
+    "findings.md",
+    "2026-05-10.md",
+    "task_plan.md",
+    "scripts/07-add-duckduckgo-search.ps1",
+    "Untitled Kanban 1.md",
+    "Untitled Kanban.md",
+    "skills/⚙️  NotebookLM + AntiGravity.md",
+    "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.md",
+    "AI-Brain/gemini.md",
+    "AI-Brain/progress.md",
+    "skills/⚙️ The First Client Playbook.md",
+    "skills/⚙️ TEMPLATE - New Skill 1.md",
+    "skills/⚙️ Skill creator.md",
+    "skills/⚙️ 1000 VIRAL HOOKS.md",
+    "skills/⚙️ Skill creator 1.md",
+    "AI-Brain/📋 Ahmed's Tasks.md",
+    "skills/⚙️ Brand design skills.md",
+    "skills/⚙️Error-handling-patterns.md",
+    "skills/README.md",
+    "skills/obsidian-brain-curator.md",
+    "skills/blast-protocol.md",
+    "skills/other-skill.md",
+    "skills",
+    "AI-Brain/🤖 Antigravity MCP Guide.md",
+    "scripts/06-add-brave-search.ps1",
+    "scripts/05-install-antigravity-mcp.ps1",
+    "AI-Brain/🔌 Plugin Guide.md",
+    "scripts/04-install-power-plugins.ps1",
+    "scripts/03-mark-done.ps1",
+    "scripts/02-check-status.ps1",
+    "scripts/01-install-plugins.ps1",
+    "scripts",
+    "AI-Brain/tools/parse_memories.py",
+    "Untitled.canvas"
+  ]
+}
