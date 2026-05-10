@@ -1,8 +1,16 @@
 ---
 type: task-board
 owner: Ahmed
-tags: [tasks, ahmed, active]
+tags:
+  - tasks
+  - ahmed
+  - active
+  - task
 updated: 2026-05-09
+title: 📋 Ahmed's Tasks
+status: open
+priority: normal
+dateModified: 2026-05-10T07:25:02.083+03:00
 ---
 
 # 👤 Ahmed's Personal To-Do List
@@ -18,7 +26,7 @@ updated: 2026-05-09
 
 - [x] #task Install Obsidian plugins: **Dataview**, **Templater**, **QuickAdd**, **Tag Wrangler** ✅ 2026-05-10
 
-- [ ] #task Install Power Plugin pack (15 additional plugins)
+- [x] #task Install Power Plugin pack (15 additional plugins)
   - **Copy-paste this into PowerShell:**
     ```powershell
     cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"

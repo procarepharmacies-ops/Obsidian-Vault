@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "calendar-default",
+      "path": "TaskNotes/Views/calendar-default.base"
+    },
+    {
+      "basename": "Drawing 2026-05-10 07.19.53.excalidraw",
+      "path": "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Untitled.base"
     },
@@ -11,14 +23,6 @@
     {
       "basename": "2026-05-10",
       "path": "2026-05-10.md"
-    },
-    {
-      "basename": "Untitled Kanban 1",
-      "path": "Untitled Kanban 1.md"
-    },
-    {
-      "basename": "Untitled Kanban",
-      "path": "Untitled Kanban.md"
     },
     {
       "basename": "⚙️  NotebookLM + AntiGravity",

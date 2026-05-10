@@ -1,6 +1,6 @@
 {
-  "sessionId": "20260510-071655",
-  "startedAt": "2026-05-10T04:16:55.597Z",
+  "sessionId": "20260510-073107",
+  "startedAt": "2026-05-10T04:31:07.709Z",
   "pluginVersion": "5.6.0",
   "vaultName": "Obsidian Vault",
   "obsidianConfigDir": ".obsidian",
@@ -26,6 +26,8 @@
     "systemsculpt-ai",
     "tasknotes",
     "table-editor-obsidian",
-    "url-into-selection"
+    "url-into-selection",
+    "obsidian-tasks-plugin",
+    "obsidian-icon-folder"
   ]
 }

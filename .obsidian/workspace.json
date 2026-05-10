@@ -11,10 +11,13 @@
             "id": "07d895b2526ac917",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/tasks-default.base",
+                "viewName": "Manual Order"
+              },
+              "icon": "tasknotes-simple",
+              "title": "tasks-default"
             }
           }
         ]
@@ -237,17 +240,18 @@
   },
   "active": "07d895b2526ac917",
   "lastOpenFiles": [
+    "TaskNotes/Views/calendar-default.base",
+    "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md",
+    "Excalidraw",
     "Untitled.base",
     "Untitled.canvas",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "SystemSculpt/Extractions",
     "README.md",
     "AI-Brain/claude.md",
     "gemini.md",
@@ -271,7 +275,6 @@
     "skills/⚙️Error-handling-patterns.md",
     "skills/README.md",
     "skills/obsidian-brain-curator.md",
-    "skills/blast-protocol.md",
-    "skills/other-skill.md"
+    "skills/blast-protocol.md"
   ]
 }
