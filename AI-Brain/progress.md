@@ -16,7 +16,8 @@
 - ✅ **Architecture Expansion**: Created `architecture/obsidian-git-setup.md` SOP.
 - ✅ **Environment Prep**: Established `.gitignore` at the vault root.
 - ✅ **Layer 3 Initialization**: Created `tools/` and `.tmp/` directories.
-- ✅ **First Tool Blueprint**: Built `tools/parser_chatgpt.py` to handle memory imports.
+- ✅ **Tool Blueprints**: Built `tools/parser_chatgpt.py`, `tools/parse_claude.py`, `tools/parse_perplexity.py`, and `tools/parse_generic.py` to handle memory imports.
+- ✅ **Templates Created**: Established `Templates/Conversation.md` and `Templates/Concept.md` for consistent memory parsing.
 
 **Next Steps:**
 1. Investigate MCP loading issue (Servers configured in `settings.json` but not active).

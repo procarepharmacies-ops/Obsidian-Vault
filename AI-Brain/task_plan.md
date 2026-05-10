@@ -33,7 +33,7 @@ Build a graph-based "Second Brain" in Obsidian that aggregates, structures, and 
 - [x] Create Python script `tools/parse_claude.py`
 - [x] Create Python script `tools/parse_perplexity.py`
 - [x] Create Python script `tools/parse_generic.py`
-- [ ] Create Obsidian templates in `Templates/`
+- [x] Create Obsidian templates in `Templates/`
 - [ ] Test pipeline with 5 sample conversations
 
 ## 🧠 Phase 3: Populate the Brain
