@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "208c2620dff36c42",
+        "id": "ff6ac8bed208c47d",
         "type": "tabs",
         "children": [
           {
-            "id": "07d895b2526ac917",
+            "id": "33ae746911a990fd",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "Manual Order"
-              },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -72,13 +69,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "b14130e4566381a1",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.51103591918945
   },
   "right": {
     "id": "63196b3dbb9f5ac3",
@@ -188,22 +195,32 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "89697f9db9966132",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": false,
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -235,25 +252,76 @@
       "tasknotes:Open pomodoro timer": false,
       "tasknotes:Open pomodoro statistics": false,
       "tasknotes:Create new task": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "07d895b2526ac917",
+  "floating": {
+    "id": "9ec231630e854fae",
+    "type": "floating",
+    "children": [
+      {
+        "id": "06d2c19e8a850e0a",
+        "type": "window",
+        "children": [
+          {
+            "id": "850cc8a60bcdb842",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9992b746aba9d1c3",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/obsidian-community/obsidian-style-settings#obsidian-style-settings-plugin",
+                    "title": "GitHub - obsidian-community/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - obsidian-community/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian · GitHub"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 128,
+        "y": 0,
+        "width": 1024,
+        "height": 671,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "9992b746aba9d1c3",
   "lastOpenFiles": [
-    "TaskNotes/Views/calendar-default.base",
+    "tools/parse_perplexity.py",
+    "tools/parse_generic.py",
+    "tools/parse_claude.py",
     "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md",
-    "Excalidraw",
-    "Untitled.base",
-    "Untitled.canvas",
-    "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "TaskNotes/Views",
-    "TaskNotes",
-    "README.md",
+    "architecture/obsidian-git-setup.md",
+    "AI-Brain/task_plan.md",
+    "AI-Brain/progress.md",
+    "AI-Brain/gemini.md",
+    "AI-Brain/findings.md",
     "AI-Brain/claude.md",
+    "AI-Brain/📋 Team Command Center.md",
+    "AI-Brain/🤖 Gemini's Tasks.md",
+    "AI-Brain/🤖 Antigravity MCP Guide.md",
+    "tools/parser_chatgpt.py",
+    "tools/README.md",
+    "tools",
+    "AI-Brain/🔌 Plugin Guide.md",
+    "architecture",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "Untitled.canvas",
+    "README.md",
     "gemini.md",
     "progress.md",
     "findings.md",
@@ -263,18 +331,8 @@
     "Untitled Kanban.md",
     "skills/⚙️  NotebookLM + AntiGravity.md",
     "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.md",
-    "AI-Brain/gemini.md",
-    "AI-Brain/progress.md",
     "skills/⚙️ The First Client Playbook.md",
     "skills/⚙️ TEMPLATE - New Skill 1.md",
-    "skills/⚙️ Skill creator.md",
-    "skills/⚙️ 1000 VIRAL HOOKS.md",
-    "skills/⚙️ Skill creator 1.md",
-    "AI-Brain/📋 Ahmed's Tasks.md",
-    "skills/⚙️ Brand design skills.md",
-    "skills/⚙️Error-handling-patterns.md",
-    "skills/README.md",
-    "skills/obsidian-brain-curator.md",
-    "skills/blast-protocol.md"
+    "skills/⚙️ Skill creator.md"
   ]
 }

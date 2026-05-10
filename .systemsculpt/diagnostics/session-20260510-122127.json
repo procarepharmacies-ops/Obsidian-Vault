@@ -1,0 +1,33 @@
+{
+  "sessionId": "20260510-122127",
+  "startedAt": "2026-05-10T09:21:27.692Z",
+  "pluginVersion": "5.6.0",
+  "vaultName": "Obsidian Vault",
+  "obsidianConfigDir": ".obsidian",
+  "enabledPlugins": [
+    "dataview",
+    "templater-obsidian",
+    "quickadd",
+    "tag-wrangler",
+    "obsidian-kanban",
+    "calendar",
+    "periodic-notes",
+    "nldates-obsidian",
+    "omnisearch",
+    "recent-files-obsidian",
+    "obsidian-excalidraw-plugin",
+    "obsidian-mind-map",
+    "advanced-tables-obsidian",
+    "obsidian-outliner",
+    "obsidian-url-into-selection",
+    "obsidian-git",
+    "obsidian-style-settings",
+    "obsidian-banners",
+    "systemsculpt-ai",
+    "tasknotes",
+    "table-editor-obsidian",
+    "url-into-selection",
+    "obsidian-tasks-plugin",
+    "obsidian-icon-folder"
+  ]
+}

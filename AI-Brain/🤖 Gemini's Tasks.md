@@ -14,7 +14,7 @@ updated: 2026-05-09
 
 ## 🔴 Currently Working On
 
-- [ ] #task Build Python parser for ChatGPT exports
+- [x] #task Build Python parser for ChatGPT exports ✅ 2026-05-10
   - **Script:** `tools/parse_chatgpt.py`
   - **Input:** ZIP from ChatGPT data export
   - **Output:** Obsidian Markdown notes in `Memories/ChatGPT/`

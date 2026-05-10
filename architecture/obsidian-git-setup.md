@@ -30,25 +30,17 @@ Create a file named `.gitignore` in the root to prevent system junk from being t
 .tmp/
 ```
 
----
-
 ## 🔗 2. GitHub Connection
 
-### A. Create Repository
-1. Go to [github.com/new](https://github.com/new).
-2. Name it `Obsidian-Vault` (or your preferred name).
-3. Set to **Private**.
-4. **Do NOT** initialize with README/License/Gitignore.
+✅ **Status:** LINKED
+**Remote URL:** `https://github.com/procarepharmacies-ops/Obsidian-Vault.git`
 
-### B. Link Remote
-Run these commands in your local vault terminal:
-```powershell
-git remote add origin https://github.com/YOUR_USERNAME/Obsidian-Vault.git
-git branch -M main
-git add .
-git commit -m "Initial commit: Antigravity Base"
-git push -u origin main
-```
+The local vault is already connected to the organization repository. No further manual linking is required. 
+
+### Recent Sync Status
+- [x] Initial Architecture Push (May 10, 2026)
+- [x] `.gitignore` established
+- [x] `architecture/` directory synced
 
 ---
 

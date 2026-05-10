@@ -1,24 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
-      "basename": "calendar-default",
-      "path": "TaskNotes/Views/calendar-default.base"
-    },
-    {
       "basename": "Drawing 2026-05-10 07.19.53.excalidraw",
       "path": "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.base"
+      "basename": "agenda-default",
+      "path": "TaskNotes/Views/agenda-default.base"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.canvas"
+      "basename": "kanban-default",
+      "path": "TaskNotes/Views/kanban-default.base"
+    },
+    {
+      "basename": "obsidian-git-setup",
+      "path": "architecture/obsidian-git-setup.md"
+    },
+    {
+      "basename": "task_plan",
+      "path": "AI-Brain/task_plan.md"
+    },
+    {
+      "basename": "progress",
+      "path": "AI-Brain/progress.md"
+    },
+    {
+      "basename": "gemini",
+      "path": "AI-Brain/gemini.md"
+    },
+    {
+      "basename": "findings",
+      "path": "AI-Brain/findings.md"
+    },
+    {
+      "basename": "claude",
+      "path": "AI-Brain/claude.md"
+    },
+    {
+      "basename": "📋 Team Command Center",
+      "path": "AI-Brain/📋 Team Command Center.md"
+    },
+    {
+      "basename": "🤖 Gemini's Tasks",
+      "path": "AI-Brain/🤖 Gemini's Tasks.md"
+    },
+    {
+      "basename": "🤖 Antigravity MCP Guide",
+      "path": "AI-Brain/🤖 Antigravity MCP Guide.md"
+    },
+    {
+      "basename": "🔌 Plugin Guide",
+      "path": "AI-Brain/🔌 Plugin Guide.md"
+    },
+    {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "relationships",
+      "path": "TaskNotes/Views/relationships.base"
+    },
+    {
+      "basename": "mini-calendar-default",
+      "path": "TaskNotes/Views/mini-calendar-default.base"
+    },
+    {
+      "basename": "calendar-default",
+      "path": "TaskNotes/Views/calendar-default.base"
     },
     {
       "basename": "2026-05-10",
@@ -27,14 +75,6 @@
     {
       "basename": "⚙️  NotebookLM + AntiGravity",
       "path": "skills/⚙️  NotebookLM + AntiGravity.md"
-    },
-    {
-      "basename": "gemini",
-      "path": "AI-Brain/gemini.md"
-    },
-    {
-      "basename": "progress",
-      "path": "AI-Brain/progress.md"
     },
     {
       "basename": "⚙️ The First Client Playbook",

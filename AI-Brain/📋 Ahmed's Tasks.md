@@ -24,6 +24,10 @@ dateModified: 2026-05-10T07:25:02.083+03:00
 
 ## 🔴 Urgent — Do Now
 
+- [x] #task **Set up Obsidian Git** ✅ 2026-05-10
+  - Follow the guide: [[architecture/obsidian-git-setup.md]]
+  - Includes: `git init`, GitHub remote, and plugin automation.
+
 - [x] #task Install Obsidian plugins: **Dataview**, **Templater**, **QuickAdd**, **Tag Wrangler** ✅ 2026-05-10
 
 - [x] #task Install Power Plugin pack (15 additional plugins)
@@ -53,7 +57,7 @@ dateModified: 2026-05-10T07:25:02.083+03:00
   - Go to: takeout.google.com → Select "Gemini" → Download
   - 📁 Save to: `AI-Brain/_Inbox/Gemini/`
 
-- [ ] #task Review & approve `gemini.md` (Project Constitution)
+- [x] #task Review & approve `gemini.md` (Project Constitution) ✅ 2026-05-10
   - Read the rules. Tell me if anything needs to change.
 
 ---

@@ -13,6 +13,10 @@
 - ✅ **Resolved Structural Ambiguity**: Consolidated "Skill Sync" constitution into `AI-Brain/gemini.md`.
 - ✅ **Protocol Alignment**: Initialized `AI-Brain/claude.md` to satisfy new Protocol 0 requirements.
 - ✅ **MCP Audit**: Transferred startup audit findings into `AI-Brain/findings.md`.
+- ✅ **Architecture Expansion**: Created `architecture/obsidian-git-setup.md` SOP.
+- ✅ **Environment Prep**: Established `.gitignore` at the vault root.
+- ✅ **Layer 3 Initialization**: Created `tools/` and `.tmp/` directories.
+- ✅ **First Tool Blueprint**: Built `tools/parser_chatgpt.py` to handle memory imports.
 
 **Next Steps:**
 1. Investigate MCP loading issue (Servers configured in `settings.json` but not active).

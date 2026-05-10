@@ -29,10 +29,10 @@ Build a graph-based "Second Brain" in Obsidian that aggregates, structures, and 
 
 ## 🛠️ Phase 2: Build the Processing Pipeline
 
-- [ ] Create Python script `tools/parse_chatgpt.py`
-- [ ] Create Python script `tools/parse_claude.py`
-- [ ] Create Python script `tools/parse_perplexity.py`
-- [ ] Create Python script `tools/parse_generic.py`
+- [x] Create Python script `tools/parse_chatgpt.py`
+- [x] Create Python script `tools/parse_claude.py`
+- [x] Create Python script `tools/parse_perplexity.py`
+- [x] Create Python script `tools/parse_generic.py`
 - [ ] Create Obsidian templates in `Templates/`
 - [ ] Test pipeline with 5 sample conversations
 
