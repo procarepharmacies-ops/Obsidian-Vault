@@ -1,0 +1,2 @@
+SystemSculpt diagnostics session 20260512-003753 (plugin v5.6.0)
+{"timestamp":"2026-05-11T21:38:01.166Z","level":"error","message":"init:timeout","context":{"source":"InitializationTracer","metadata":{"phase":"settings.load","id":16,"elapsedMs":8000.9000000059605,"timeoutMs":8000}}}

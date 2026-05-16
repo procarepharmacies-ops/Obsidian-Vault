@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2026-05-10 07.19.53.excalidraw",
-      "path": "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md"
+      "basename": "Dashboard google Ai studio",
+      "path": "Dashboard google Ai studio.md"
+    },
+    {
+      "basename": "📋 Ahmed's Tasks",
+      "path": "AI-Brain/📋 Ahmed's Tasks.md"
+    },
+    {
+      "basename": "202605120201",
+      "path": "202605120201.md"
+    },
+    {
+      "basename": "🤖 Gemini's Tasks",
+      "path": "AI-Brain/🤖 Gemini's Tasks.md"
+    },
+    {
+      "basename": "🤖 Antigravity MCP Guide",
+      "path": "AI-Brain/🤖 Antigravity MCP Guide.md"
+    },
+    {
+      "basename": "memory-note",
+      "path": "AI-Brain/Templates/memory-note.md"
+    },
+    {
+      "basename": "concept-note",
+      "path": "AI-Brain/Templates/concept-note.md"
+    },
+    {
+      "basename": "main-dashboard",
+      "path": "AI-Brain/Dashboards/main-dashboard.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "agenda-default",
       "path": "TaskNotes/Views/agenda-default.base"
     },
     {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "relationships",
+      "path": "TaskNotes/Views/relationships.base"
+    },
+    {
+      "basename": "mini-calendar-default",
+      "path": "TaskNotes/Views/mini-calendar-default.base"
+    },
+    {
       "basename": "kanban-default",
       "path": "TaskNotes/Views/kanban-default.base"
+    },
+    {
+      "basename": "calendar-default",
+      "path": "TaskNotes/Views/calendar-default.base"
+    },
+    {
+      "basename": "Drawing 2026-05-10 07.19.53.excalidraw",
+      "path": "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md"
     },
     {
       "basename": "obsidian-git-setup",
@@ -41,32 +93,8 @@
       "path": "AI-Brain/📋 Team Command Center.md"
     },
     {
-      "basename": "🤖 Gemini's Tasks",
-      "path": "AI-Brain/🤖 Gemini's Tasks.md"
-    },
-    {
-      "basename": "🤖 Antigravity MCP Guide",
-      "path": "AI-Brain/🤖 Antigravity MCP Guide.md"
-    },
-    {
       "basename": "🔌 Plugin Guide",
       "path": "AI-Brain/🔌 Plugin Guide.md"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
-      "basename": "relationships",
-      "path": "TaskNotes/Views/relationships.base"
-    },
-    {
-      "basename": "mini-calendar-default",
-      "path": "TaskNotes/Views/mini-calendar-default.base"
-    },
-    {
-      "basename": "calendar-default",
-      "path": "TaskNotes/Views/calendar-default.base"
     },
     {
       "basename": "2026-05-10",
@@ -91,10 +119,6 @@
     {
       "basename": "⚙️ 1000 VIRAL HOOKS",
       "path": "skills/⚙️ 1000 VIRAL HOOKS.md"
-    },
-    {
-      "basename": "📋 Ahmed's Tasks",
-      "path": "AI-Brain/📋 Ahmed's Tasks.md"
     }
   ],
   "omittedPaths": [],

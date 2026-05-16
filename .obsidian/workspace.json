@@ -8,13 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33ae746911a990fd",
+            "id": "8854c2393dffa799",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard google Ai studio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Dashboard google Ai studio"
             }
           }
         ]
@@ -80,8 +94,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,12 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Dashboard google Ai studio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Dashboard google Ai studio"
             }
           },
           {
@@ -174,7 +188,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "Dashboard google Ai studio.md"
+              },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
@@ -210,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -256,53 +272,27 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "floating": {
-    "id": "9ec231630e854fae",
-    "type": "floating",
-    "children": [
-      {
-        "id": "06d2c19e8a850e0a",
-        "type": "window",
-        "children": [
-          {
-            "id": "850cc8a60bcdb842",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9992b746aba9d1c3",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://github.com/obsidian-community/obsidian-style-settings#obsidian-style-settings-plugin",
-                    "title": "GitHub - obsidian-community/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian · GitHub",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "GitHub - obsidian-community/obsidian-style-settings: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian · GitHub"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 128,
-        "y": 0,
-        "width": 1024,
-        "height": 671,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "9992b746aba9d1c3",
+  "active": "8854c2393dffa799",
   "lastOpenFiles": [
+    "AI-Brain/📋 Ahmed's Tasks.md",
+    "Dashboard google Ai studio.md",
+    "202605120201.md",
+    "AI-Brain/🤖 Gemini's Tasks.md",
+    "AI-Brain/🤖 Antigravity MCP Guide.md",
+    "AI-Brain/Templates/memory-note.md",
+    "AI-Brain/Templates/concept-note.md",
+    "AI-Brain/Dashboards/main-dashboard.md",
+    "README.md",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/calendar-default.base",
     "tools/parse_perplexity.py",
     "tools/parse_generic.py",
     "tools/parse_claude.py",
     "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/kanban-default.base",
     "architecture/obsidian-git-setup.md",
     "AI-Brain/task_plan.md",
     "AI-Brain/progress.md",
@@ -310,29 +300,15 @@
     "AI-Brain/findings.md",
     "AI-Brain/claude.md",
     "AI-Brain/📋 Team Command Center.md",
-    "AI-Brain/🤖 Gemini's Tasks.md",
-    "AI-Brain/🤖 Antigravity MCP Guide.md",
     "tools/parser_chatgpt.py",
     "tools/README.md",
-    "tools",
     "AI-Brain/🔌 Plugin Guide.md",
-    "architecture",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/mini-calendar-default.base",
     "Untitled.canvas",
-    "README.md",
     "gemini.md",
     "progress.md",
     "findings.md",
     "2026-05-10.md",
     "task_plan.md",
-    "Untitled Kanban 1.md",
-    "Untitled Kanban.md",
-    "skills/⚙️  NotebookLM + AntiGravity.md",
-    "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.md",
-    "skills/⚙️ The First Client Playbook.md",
-    "skills/⚙️ TEMPLATE - New Skill 1.md",
-    "skills/⚙️ Skill creator.md"
+    "Untitled Kanban 1.md"
   ]
 }
