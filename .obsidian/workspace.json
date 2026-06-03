@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff6ac8bed208c47d",
+        "id": "840926a94169dd90",
         "type": "tabs",
         "children": [
           {
-            "id": "8854c2393dffa799",
+            "id": "15a3e6e74e58f5c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard google Ai studio.md",
+                "file": "202606031226.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard google Ai studio"
+              "title": "202606031226"
             }
           }
         ]
@@ -94,7 +94,8 @@
               "title": "Notebook Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard google Ai studio.md",
+                "file": "AI-Brain/📋 Team Command Center.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dashboard google Ai studio"
+              "title": "Outline of 📋 Team Command Center"
             }
           },
           {
@@ -226,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -272,43 +273,44 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "8854c2393dffa799",
+  "active": "15a3e6e74e58f5c5",
   "lastOpenFiles": [
-    "AI-Brain/📋 Ahmed's Tasks.md",
-    "Dashboard google Ai studio.md",
-    "202605120201.md",
-    "AI-Brain/🤖 Gemini's Tasks.md",
-    "AI-Brain/🤖 Antigravity MCP Guide.md",
+    "Untitled Kanban.md",
+    "202606031226.md",
+    "202606031225.md",
     "AI-Brain/Templates/memory-note.md",
     "AI-Brain/Templates/concept-note.md",
     "AI-Brain/Dashboards/main-dashboard.md",
-    "README.md",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views/calendar-default.base",
-    "tools/parse_perplexity.py",
-    "tools/parse_generic.py",
-    "tools/parse_claude.py",
-    "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md",
-    "architecture/obsidian-git-setup.md",
-    "AI-Brain/task_plan.md",
-    "AI-Brain/progress.md",
-    "AI-Brain/gemini.md",
-    "AI-Brain/findings.md",
-    "AI-Brain/claude.md",
     "AI-Brain/📋 Team Command Center.md",
-    "tools/parser_chatgpt.py",
-    "tools/README.md",
+    "AI-Brain/📖 How We Work Together.md",
     "AI-Brain/🔌 Plugin Guide.md",
+    "AI-Brain/gemini.md",
+    "AI-Brain/🤖 Antigravity MCP Guide.md",
+    "AI-Brain/findings.md",
+    "AI-Brain/task_plan.md",
+    "AI-Brain/claude.md",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/kanban-default.base",
+    "202606021800.md",
+    "Pharmacy_Project/backend/app/api/__pycache__/loyalty.cpython-314.pyc",
+    "Pharmacy_Project/backend/app/api/__pycache__/clinical.cpython-314.pyc",
+    "Pharmacy_Project/backend/app/api/loyalty.py",
+    "Pharmacy_Project/backend/app/api/clinical.py",
+    "AI-Brain/🤖 Gemini's Tasks.md",
+    "Untitled.base",
+    "AI-Brain/🧠 Memories/Perplexity",
+    "202605180428.md",
+    "AI-Brain/📋 Ahmed's Tasks.md",
+    "architecture/obsidian-git-setup.md",
+    "Dashboard google Ai studio.md",
+    "202605120201.md",
+    "README.md",
+    "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md",
+    "AI-Brain/progress.md",
+    "tools/README.md",
     "Untitled.canvas",
-    "gemini.md",
-    "progress.md",
-    "findings.md",
-    "2026-05-10.md",
-    "task_plan.md",
-    "Untitled Kanban 1.md"
+    "gemini.md"
   ]
 }

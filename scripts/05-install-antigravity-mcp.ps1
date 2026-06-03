@@ -9,7 +9,7 @@ Write-Host "🚀 Antigravity MCP Power Plugin Installer" -ForegroundColor Cyan
 Write-Host "==========================================" -ForegroundColor Cyan
 Write-Host ""
 
-$SettingsPath = "C:\Users\Ahmed\.gemini\settings.json"
+$SettingsPath = "C:\Users\Ahmed\.gemini\antigravity\mcp_config.json"
 $VaultPath = "C:\Users\Ahmed\Documents\Obsidian Vault"
 
 # ─── Read current settings ───────────────────────────────

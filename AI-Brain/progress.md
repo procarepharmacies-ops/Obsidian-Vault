@@ -2,6 +2,35 @@
 
 > Running log of what was done, errors encountered, and results.
 
+## 2026-06-01 — Session 5: Initializing Memory Graph AI Directories
+
+**Status:** 🟢 Done
+
+**Done:**
+- ✅ **Created Vault Directories**: Created `📥 _Inbox` directory and full `🧠 Memories` hierarchy (`ChatGPT`, `Claude`, `Perplexity`, `Copilot`, `Gemini`) under `AI-Brain/` to house raw conversation exports and parsed markdown files.
+- ✅ **Aligned with Project Constitution**: Ensured folder structure matches the layout specified in `gemini.md`.
+
+**Next Steps:**
+1. Ahmed: Place Claude's `conversations.json` into `AI-Brain/📥 _Inbox/claude_conversations.json`.
+2. Run the parser command to generate graph-interlinked markdown nodes.
+
+---
+
+## 2026-05-17 — Session 4: Diagnosing and Fixing Antigravity MCP Discrepancy
+
+**Status:** 🟢 Done
+
+**Done:**
+- ✅ **Identified MCP Path Discrepancy**: Discovered that Antigravity reads its active MCP configurations from `C:\Users\Ahmed\.gemini\antigravity\mcp_config.json`, whereas the installer script `05-install-antigravity-mcp.ps1` was incorrectly writing to `C:\Users\Ahmed\.gemini\settings.json`.
+- ✅ **Fixed Active Configuration**: Merged all 7 power plugins (`filesystem`, `memory`, `sequential-thinking`, `duckduckgo`, `MCP_DOCKER`, `puppeteer`, and `context7`) from `settings.json` into the active `antigravity/mcp_config.json` alongside `GitKraken`.
+- ✅ **Patched Installer Script**: Updated `$SettingsPath` in `05-install-antigravity-mcp.ps1` to correctly target `mcp_config.json` for all future installs/updates.
+- ✅ **Updated Documentation**: Logged the root cause and resolution in `findings.md`.
+
+**Next Steps:**
+1. User restarts Antigravity to load the newly merged power plugins!
+2. Verify active plugins using: *"What MCP tools do you have?"*
+3. Proceed with AI Brain exports (ChatGPT, etc.).
+
 ---
 
 ## 2026-05-10 — Session 3: Conflict Resolution & Restoration

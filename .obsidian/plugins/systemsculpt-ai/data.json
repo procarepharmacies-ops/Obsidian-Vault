@@ -176,7 +176,7 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 1778903054809,
+  "lastAutomaticBackup": 1780417040128,
   "meetingProcessorOptions": {
     "summary": true,
     "actionItems": true,

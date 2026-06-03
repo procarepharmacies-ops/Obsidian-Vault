@@ -83,6 +83,7 @@ updated: 2026-05-10
 **Get it:** https://brave.com/search/api/ (free tier: 2,000 searches/month)
 
 **Install:**
+
 ```powershell
 cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
 .\06-add-brave-search.ps1 YOUR_API_KEY_HERE
@@ -116,12 +117,14 @@ I'll list all active servers and their tools.
 ## 🛠️ Troubleshooting
 
 **Plugin not showing up?**
+
 ```powershell
 # Check settings.json is valid JSON
 Get-Content "C:\Users\Ahmed\.gemini\settings.json" | ConvertFrom-Json
 ```
 
 **Re-run installer:**
+
 ```powershell
 cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
 .\05-install-antigravity-mcp.ps1

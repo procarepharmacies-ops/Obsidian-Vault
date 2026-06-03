@@ -72,12 +72,15 @@
 
 1. **Structural Ambiguity**: Dual projects (`AI-Brain` vs root level) caused duplicate tracking files. **(RESOLVED: Reverted to AI-Brain primary)**
 2. **MCP Discrepancy**: `settings.json` contains several MCP servers (filesystem, memory, sequential-thinking) that are NOT appearing in the active session toolset.
-   - **Status**: Investigating why Antigravity is not loading these servers despite valid `settings.json` configuration.
+   - **Status**: **RESOLVED (2026-05-17)**
+   - **Root Cause**: The Antigravity desktop application reads its MCP configuration from `C:\Users\Ahmed\.gemini\antigravity\mcp_config.json`, but the installer script was incorrectly writing to `C:\Users\Ahmed\.gemini\settings.json`.
+   - **Resolution**: Merged the configuration from `settings.json` into `antigravity/mcp_config.json` and updated `05-install-antigravity-mcp.ps1` to target `mcp_config.json` directly.
 
 ### MCP Audit
 
-- **Filesystem**: Configured in `settings.json` but not listed in available MCP servers.
-- **Sequential Thinking**: Configured but not listed.
-- **Memory**: Configured but not listed.
-- **Context7**: Configured but not listed.
-- **Puppeteer**: Configured but not listed.
+- **Filesystem**: Configured in `mcp_config.json` ✅ **ACTIVE ON NEXT RESTART**
+- **Sequential Thinking**: Configured in `mcp_config.json` ✅ **ACTIVE ON NEXT RESTART**
+- **Memory**: Configured in `mcp_config.json` ✅ **ACTIVE ON NEXT RESTART**
+- **Context7**: Configured in `mcp_config.json` ✅ **ACTIVE ON NEXT RESTART**
+- **Puppeteer**: Configured in `mcp_config.json` ✅ **ACTIVE ON NEXT RESTART**
+- **DuckDuckGo**: Configured in `mcp_config.json` ✅ **ACTIVE ON NEXT RESTART**

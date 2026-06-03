@@ -62,7 +62,7 @@ Build a graph-based "Second Brain" in Obsidian that aggregates, structures, and 
 - [x] Integrate Skill Sync constitution into `gemini.md`
 - [ ] Verify `skills/` folder source of truth
 - [ ] Automate skill sync to Antigravity knowledge base
-- [ ] Fix MCP Loading issues (Troubleshooting)
+- [x] Fix MCP Loading issues (Troubleshooting)
 
 ---
 

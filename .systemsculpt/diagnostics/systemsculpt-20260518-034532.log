@@ -1,0 +1,5 @@
+SystemSculpt diagnostics session 20260517-110756 (plugin v5.6.0)
+{"timestamp":"2026-05-17T08:08:16.652Z","level":"error","message":"init:timeout","context":{"source":"InitializationTracer","metadata":{"phase":"settings.load","id":16,"elapsedMs":19733,"timeoutMs":8000}}}
+{"timestamp":"2026-05-17T08:08:24.382Z","level":"error","message":"init:timeout","context":{"source":"InitializationTracer","metadata":{"phase":"lifecycle.critical.init.critical","id":14,"elapsedMs":27463.79999999999,"timeoutMs":25000}}}
+{"timestamp":"2026-05-17T08:08:43.917Z","level":"error","message":"init:late","context":{"source":"InitializationTracer","metadata":{"phase":"settings.load","id":16,"durMs":46997.70000000001,"logLevel":1,"debugMode":false}}}
+{"timestamp":"2026-05-17T08:08:43.938Z","level":"error","message":"init:late","context":{"source":"InitializationTracer","metadata":{"phase":"lifecycle.critical.init.critical","id":14,"durMs":47020,"durationMs":47020}}}
