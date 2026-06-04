@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes — ProCare AI Hub</title>
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:        #0a1628;
+      --navy-light:  #0f2040;
+      --navy-mid:    #142850;
+      --gold:        #d4a843;
+      --gold-light:  #e8c060;
+      --gold-dark:   #a07820;
+      --white:       #f0f4ff;
+      --white-dim:   #8a9ac0;
+      --green:       #3dcc80;
+      --red:         #e05555;
+      --border:      rgba(212,168,67,0.22);
+      --card-bg:     rgba(15,32,64,0.85);
+      --input-bg:    rgba(10,22,40,0.9);
+      --radius:      10px;
+      --radius-sm:   6px;
+      --shadow:      0 4px 32px rgba(0,0,0,0.45);
+      --font:        'Segoe UI', system-ui, -apple-system, sans-serif;
+      --mono:        'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--navy);
+      color: var(--white);
+      font-family: var(--font);
+      font-size: 14px;
+      line-height: 1.6;
+      overflow: hidden;
+    }
+
+    /* ── Layout ───────────────────────────────────────────────────────────── */
+    #app {
+      display: grid;
+      grid-template-rows: 56px 1fr;
+      height: 100vh;
+    }
+
+    /* ── Header ───────────────────────────────────────────────────────────── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 0 24px;
+      background: var(--navy-mid);
+      border-bottom: 1.5px solid var(--border);
+      box-shadow: var(--shadow);
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.04em;
+      flex-shrink: 0;
+    }
+
+    .logo span { color: var(--white-dim); font-weight: 400; font-size: 13px; margin-left: 8px; }
+
+    nav { display: flex; gap: 4px; margin-left: auto; }
+
+    .tab-btn {
+      padding: 6px 18px;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid transparent;
+      background: transparent;
+      color: var(--white-dim);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.03em;
+    }
+
+    .tab-btn:hover { background: var(--navy-light); color: var(--white); }
+
+    .tab-btn.active {
+      background: var(--navy-light);
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* ── Content area ─────────────────────────────────────────────────────── */
+    main { overflow: hidden; position: relative; }
+
+    .panel {
+      display: none;
+      height: 100%;
+      padding: 24px;
+      overflow-y: auto;
+      animation: fadeIn 0.18s ease;
+    }
+
+    .panel.active { display: flex; flex-direction: column; gap: 20px; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; } }
+
+    /* ── Cards ────────────────────────────────────────────────────────────── */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ── Forms ────────────────────────────────────────────────────────────── */
+    .form-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+
+    .field { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 120px; }
+
+    label { font-size: 12px; color: var(--white-dim); font-weight: 600; letter-spacing: 0.04em; }
+
+    input, select, textarea {
+      background: var(--input-bg);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--white);
+      padding: 8px 12px;
+      font-size: 13px;
+      font-family: var(--font);
+      outline: none;
+      transition: border-color 0.15s;
+      width: 100%;
+    }
+
+    input:focus, select:focus, textarea:focus { border-color: var(--gold); }
+
+    select option { background: var(--navy-mid); }
+
+    textarea { resize: vertical; min-height: 60px; }
+
+    .btn {
+      padding: 9px 20px;
+      border-radius: var(--radius-sm);
+      border: none;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.03em;
+      flex-shrink: 0;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .btn-primary:hover { background: var(--gold-light); }
+
+    .btn-ghost {
+      background: transparent;
+      border: 1.5px solid var(--border);
+      color: var(--white-dim);
+    }
+
+    .btn-ghost:hover { border-color: var(--gold); color: var(--gold); }
+
+    .btn-danger {
+      background: transparent;
+      border: 1.5px solid rgba(224,85,85,0.4);
+      color: var(--red);
+    }
+
+    .btn-danger:hover { background: rgba(224,85,85,0.12); }
+
+    .btn-success {
+      background: transparent;
+      border: 1.5px solid rgba(61,204,128,0.4);
+      color: var(--green);
+    }
+
+    .btn-success:hover { background: rgba(61,204,128,0.12); }
+
+    /* ── Status badges ────────────────────────────────────────────────────── */
+    .badge {
+      display: inline-block;
+      padding: 2px 9px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .badge-gold { background: rgba(212,168,67,0.18); color: var(--gold); border: 1px solid rgba(212,168,67,0.4); }
+    .badge-green { background: rgba(61,204,128,0.18); color: var(--green); border: 1px solid rgba(61,204,128,0.4); }
+    .badge-red { background: rgba(224,85,85,0.18); color: var(--red); border: 1px solid rgba(224,85,85,0.4); }
+    .badge-dim { background: rgba(138,154,192,0.12); color: var(--white-dim); border: 1px solid rgba(138,154,192,0.2); }
+
+    /* ── Tables ───────────────────────────────────────────────────────────── */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+    thead th {
+      text-align: left;
+      padding: 8px 12px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--white-dim);
+      border-bottom: 1px solid var(--border);
+      font-weight: 700;
+    }
+
+    tbody tr { border-bottom: 1px solid rgba(212,168,67,0.08); transition: background 0.1s; }
+    tbody tr:hover { background: rgba(212,168,67,0.04); }
+    tbody td { padding: 10px 12px; vertical-align: middle; }
+
+    .empty-state {
+      text-align: center;
+      padding: 32px;
+      color: var(--white-dim);
+      font-style: italic;
+    }
+
+    /* ── Chat panel ───────────────────────────────────────────────────────── */
+    #chat-panel {
+      display: none;
+      grid-template-rows: auto 1fr auto;
+      gap: 16px;
+    }
+
+    #chat-panel.active { display: grid; }
+
+    #chat-messages {
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 4px;
+      min-height: 0;
+    }
+
+    .msg {
+      max-width: 72%;
+      padding: 12px 16px;
+      border-radius: var(--radius);
+      line-height: 1.65;
+      white-space: pre-wrap;
+      word-break: break-word;
+      animation: fadeIn 0.15s ease;
+    }
+
+    .msg-user {
+      align-self: flex-end;
+      background: var(--navy-mid);
+      border: 1.5px solid var(--border);
+      color: var(--white);
+    }
+
+    .msg-assistant {
+      align-self: flex-start;
+      background: rgba(212,168,67,0.08);
+      border: 1.5px solid rgba(212,168,67,0.25);
+      color: var(--white);
+    }
+
+    .msg-meta {
+      font-size: 11px;
+      color: var(--white-dim);
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .chat-input-row {
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    #chat-input {
+      flex: 1;
+      min-height: 44px;
+      max-height: 120px;
+      resize: none;
+      font-size: 14px;
+      padding: 10px 14px;
+    }
+
+    .chat-controls { display: flex; gap: 8px; align-items: center; }
+
+    #provider-select { width: 130px; }
+
+    /* ── Pharmacy summary cards ────────────────────────────────────────────── */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      text-align: center;
+    }
+
+    .stat-value { font-size: 36px; font-weight: 700; color: var(--gold); line-height: 1.1; }
+    .stat-label { font-size: 12px; color: var(--white-dim); margin-top: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    /* ── Notification toast ───────────────────────────────────────────────── */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--navy-mid);
+      border: 1.5px solid var(--gold);
+      color: var(--white);
+      padding: 12px 20px;
+      border-radius: var(--radius);
+      font-size: 13px;
+      z-index: 1000;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: all 0.2s;
+      pointer-events: none;
+      max-width: 320px;
+    }
+
+    #toast.show { opacity: 1; transform: translateY(0); }
+    #toast.error { border-color: var(--red); }
+
+    /* ── Loading indicator ────────────────────────────────────────────────── */
+    .thinking {
+      align-self: flex-start;
+      padding: 10px 16px;
+      border-radius: var(--radius);
+      background: rgba(212,168,67,0.06);
+      border: 1.5px solid rgba(212,168,67,0.18);
+      color: var(--white-dim);
+      font-style: italic;
+      animation: pulse 1.4s ease-in-out infinite;
+    }
+
+    @keyframes pulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+
+    /* ── Scrollbar styling ────────────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(212,168,67,0.2); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(212,168,67,0.4); }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="logo">⚡ Hermes <span>ProCare AI Hub</span></div>
+      <nav>
+        <button class="tab-btn active" data-tab="chat">Chat</button>
+        <button class="tab-btn" data-tab="pharmacy">Pharmacy</button>
+        <button class="tab-btn" data-tab="tasks">Tasks</button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ── Chat Panel ──────────────────────────────────────────────────── -->
+      <div id="chat-panel" class="panel active">
+        <div class="card" style="flex-shrink:0">
+          <div class="card-title">AI Chat</div>
+          <div class="form-row" style="align-items:center">
+            <div class="field" style="max-width:180px">
+              <label for="provider-select">Provider</label>
+              <select id="provider-select">
+                <option value="auto">Auto (best available)</option>
+                <option value="claude">Claude (Anthropic)</option>
+                <option value="gemini">Gemini (Google)</option>
+              </select>
+            </div>
+            <div class="field" style="max-width:200px">
+              <label for="session-input">Session ID</label>
+              <input type="text" id="session-input" placeholder="leave blank = new session" />
+            </div>
+            <button class="btn btn-ghost" id="clear-chat-btn" style="margin-top:18px">Clear</button>
+          </div>
+        </div>
+
+        <div id="chat-messages" class="card" style="flex:1; overflow-y:auto">
+          <div class="msg msg-assistant">
+            <div class="msg-meta">Hermes</div>
+            Hello! I'm Hermes, your ProCare AI Hub. Select a provider above and start chatting. I can help with pharmacy questions, task planning, and more.
+          </div>
+        </div>
+
+        <div class="card" style="flex-shrink:0">
+          <div class="chat-input-row">
+            <textarea id="chat-input" placeholder="Type your message… (Enter to send, Shift+Enter for newline)"></textarea>
+            <div style="display:flex; flex-direction:column; gap:8px">
+              <button class="btn btn-primary" id="send-btn">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Pharmacy Panel ─────────────────────────────────────────────── -->
+      <div id="pharmacy-panel" class="panel">
+        <div class="summary-grid" id="pharmacy-summary">
+          <div class="stat-card">
+            <div class="stat-value" id="stat-pending">—</div>
+            <div class="stat-label">Pending Refills</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-filled">—</div>
+            <div class="stat-label">Filled Today</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-notifs">—</div>
+            <div class="stat-label">Notifications</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-mode" style="font-size:16px; color:var(--white-dim); padding-top:8px">—</div>
+            <div class="stat-label">Mode</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">New Refill Request</div>
+          <div class="form-row">
+            <div class="field">
+              <label for="refill-patient">Patient ID</label>
+              <input type="text" id="refill-patient" placeholder="e.g. P001" />
+            </div>
+            <div class="field" style="flex:2">
+              <label for="refill-med">Medication</label>
+              <input type="text" id="refill-med" placeholder="e.g. Metformin 500mg" />
+            </div>
+            <div class="field" style="max-width:100px">
+              <label for="refill-qty">Qty</label>
+              <input type="number" id="refill-qty" placeholder="90" min="1" />
+            </div>
+            <button class="btn btn-primary" id="refill-btn" style="margin-top:18px">Submit</button>
+          </div>
+        </div>
+
+        <div class="card" style="flex:1">
+          <div class="card-title">
+            Pending Refills
+            <button class="btn btn-ghost" id="refresh-refills-btn" style="padding:4px 12px; font-size:12px; margin-left:auto">Refresh</button>
+          </div>
+          <div id="refills-table-wrap">
+            <div class="empty-state">Loading refills…</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Tasks Panel ────────────────────────────────────────────────── -->
+      <div id="tasks-panel" class="panel">
+        <div class="card">
+          <div class="card-title">Add Task</div>
+          <div class="form-row">
+            <div class="field" style="flex:2">
+              <label for="task-title">Title</label>
+              <input type="text" id="task-title" placeholder="Task title" />
+            </div>
+            <div class="field" style="max-width:130px">
+              <label for="task-priority">Priority</label>
+              <select id="task-priority">
+                <option value="1">1 — Urgent</option>
+                <option value="2" selected>2 — High</option>
+                <option value="3">3 — Medium</option>
+                <option value="4">4 — Low</option>
+              </select>
+            </div>
+            <div class="field" style="max-width:160px">
+              <label for="task-due">Due Date</label>
+              <input type="date" id="task-due" />
+            </div>
+            <button class="btn btn-primary" id="add-task-btn" style="margin-top:18px">Add</button>
+          </div>
+          <div class="form-row" style="margin-top:10px">
+            <div class="field">
+              <label for="task-desc">Description (optional)</label>
+              <input type="text" id="task-desc" placeholder="Optional details…" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="flex:1">
+          <div class="card-title">
+            Tasks
+            <div style="margin-left:auto; display:flex; gap:8px; align-items:center">
+              <select id="filter-status" style="width:130px; padding:4px 8px; font-size:12px">
+                <option value="">All statuses</option>
+                <option value="pending">Pending</option>
+                <option value="done">Done</option>
+              </select>
+              <select id="filter-priority" style="width:130px; padding:4px 8px; font-size:12px">
+                <option value="">All priorities</option>
+                <option value="1">Urgent</option>
+                <option value="2">High</option>
+                <option value="3">Medium</option>
+                <option value="4">Low</option>
+              </select>
+              <button class="btn btn-ghost" id="refresh-tasks-btn" style="padding:4px 12px; font-size:12px">Refresh</button>
+            </div>
+          </div>
+          <div id="tasks-table-wrap">
+            <div class="empty-state">Loading tasks…</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div id="toast"></div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

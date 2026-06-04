@@ -1,0 +1,9 @@
+typer[all]
+rich
+anthropic
+httpx
+pydantic
+pydantic-settings
+aiosqlite
+python-dotenv
+asyncio
