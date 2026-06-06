@@ -145,6 +145,19 @@ class AIHub:
 
     # ── Auto-routing ──────────────────────────────────────────────────────────
 
+    async def _chat_demo(self, messages: list[Message]) -> str:
+        """Demo mode — echoes back a helpful reply when no providers are configured."""
+        last = messages[-1]["content"] if messages else ""
+        return (
+            f"[Demo Mode] Hermes received: \"{last[:80]}{'…' if len(last) > 80 else ''}\"\n\n"
+            "No API keys are configured yet. To enable real AI responses:\n"
+            "  1. Edit ~/.hermes/.env\n"
+            "  2. Add ANTHROPIC_API_KEY=sk-ant-... for Claude\n"
+            "  3. Or add GEMINI_API_KEY=AIza... for Gemini\n"
+            "  4. Restart phermes chat\n\n"
+            "All other features (pharmacy, tasks, status) work fully in demo mode."
+        )
+
     async def route_message(
         self,
         messages: list[Message],
@@ -165,17 +178,19 @@ class AIHub:
         (reply_text, provider_used)
         """
         if provider == "claude":
+            if not settings.has_claude:
+                return await self._chat_demo(messages), "demo"
             return await self.chat_claude(messages, **kwargs), "claude"
         if provider == "gemini":
+            if not settings.has_gemini:
+                return await self._chat_demo(messages), "demo"
             return await self.chat_gemini(messages, **kwargs), "gemini"
 
         # auto — try in order of preference
         available = self.get_available_providers()
         if not available:
-            raise AIHubError(
-                "No AI providers are configured. "
-                "Set ANTHROPIC_API_KEY or GEMINI_API_KEY in ~/.hermes/.env"
-            )
+            # Fall back to demo mode so Hermes works without any API keys
+            return await self._chat_demo(messages), "demo"
 
         last_error: Optional[Exception] = None
         for prov in available:
