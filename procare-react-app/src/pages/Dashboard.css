@@ -1,0 +1,187 @@
+/* Dashboard.css - Premium Glassmorphism Theme */
+
+.dashboard-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #e8f0fe;
+  font-family: 'DM Sans', 'Inter', sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #00d4a8 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.date-badge {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: rgba(232, 240, 254, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.glass:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px 0 rgba(0, 212, 168, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Grids */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-main-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Cards */
+.card {
+  padding: 1.5rem;
+}
+
+.stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.stat-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: rgba(232, 240, 254, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: #fff;
+}
+
+.stat-footer {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Charts */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.chart-wrapper {
+  margin-top: 1rem;
+}
+
+/* Typography & Colors */
+.text-muted { color: rgba(232, 240, 254, 0.5); }
+.text-success { color: #00d4a8; }
+.text-danger { color: #ff4d6d; }
+.text-warning { color: #f59e0b; }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.flex-center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-primary {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+/* Loading State */
+.loading-container, .error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  color: rgba(232, 240, 254, 0.6);
+  font-size: 1.2rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top-color: #00d4a8;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Recharts Overrides for Dark Theme */
+.recharts-default-tooltip {
+  background-color: rgba(15, 23, 42, 0.9) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5) !important;
+  backdrop-filter: blur(8px) !important;
+}

@@ -1,0 +1,259 @@
+.orchestration-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+  gap: 2rem;
+  padding-right: 0.5rem;
+}
+
+/* ================================
+   ORG CHART / ARCHITECTURE
+=================================== */
+.org-chart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 16px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+
+.org-level {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.org-level.level-boss { margin-bottom: 3rem; }
+.org-level.level-managers { margin-bottom: 3rem; }
+.org-level.level-workers { flex-wrap: wrap; gap: 1rem; }
+
+/* Connecting lines simulation */
+.org-level.level-boss::after,
+.org-level.level-managers::after {
+  content: '';
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  width: 2px;
+  height: 3rem;
+  background: rgba(255,255,255,0.2);
+  z-index: 1;
+}
+.org-level.level-managers::before {
+  content: '';
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  width: 50%;
+  height: 2px;
+  background: rgba(255,255,255,0.2);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Agent Card specific to Org Chart */
+.agent-card {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: rgba(15, 23, 42, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.agent-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.agent-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.agent-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agent-status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agent-details h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.agent-details p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.agent-card-footer {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* ================================
+   KANBAN BOARD / PIPELINE
+=================================== */
+.kanban-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  min-height: 400px;
+}
+
+.kanban-column {
+  background: rgba(15, 23, 42, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.kanban-column-header {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-count {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+}
+
+.kanban-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.task-card {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  animation: slideIn 0.3s ease-out;
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateX(2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.task-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.task-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.task-agent {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(0,0,0,0.2);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* ================================
+   ANIMATIONS
+=================================== */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes spin { 
+  100% { transform: rotate(360deg); } 
+}
+.spin { 
+  animation: spin 1s linear infinite; 
+}
+.spin-slow {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+.float {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px) rotate(-5deg); }
+  75% { transform: translateX(4px) rotate(5deg); }
+}
+.shake {
+  animation: shake 0.5s ease-in-out infinite;
+}
