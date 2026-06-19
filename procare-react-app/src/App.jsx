@@ -14,6 +14,7 @@ import WeightControl from './pages/WeightControl';
 import AiOtc from './pages/AiOtc';
 import OperationsKanban from './pages/OperationsKanban';
 import DoctorAnalytics from './pages/DoctorAnalytics';
+import NvrCameras from './pages/NvrCameras';
 import './App.css';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="ai-otc" element={<AiOtc />} />
           <Route path="operations-kanban" element={<OperationsKanban />} />
           <Route path="doctor-analytics" element={<DoctorAnalytics />} />
+          <Route path="nvr-cameras" element={<NvrCameras />} />
         </Route>
       </Routes>
     </Router>

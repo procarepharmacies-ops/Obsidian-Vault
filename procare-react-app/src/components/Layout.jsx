@@ -2,7 +2,7 @@ import { Outlet, NavLink } from 'react-router-dom';
 import { 
   LayoutDashboard, Package, Calculator, ShoppingCart, Users, HeartHandshake, 
   Bell, Search, Activity, Replace, ScanLine, Scale, Sparkles, DollarSign, 
-  KanbanSquare, Stethoscope, ChevronDown, ActivitySquare 
+  KanbanSquare, Stethoscope, ChevronDown, ActivitySquare, Video 
 } from 'lucide-react';
 import HermesChat from './HermesChat';
 import './Layout.css';
@@ -26,6 +26,7 @@ const Layout = () => {
     { path: '/weight-control', label: 'Weight Program', icon: <Scale size={18} /> },
     { path: '/ai-otc', label: 'AI OTC Assistant', icon: <Sparkles size={18} /> },
     { path: '/doctor-analytics', label: 'Doctor Analytics', icon: <Stethoscope size={18} /> },
+    { path: '/nvr-cameras', label: 'NVR Cameras (AI)', icon: <Video size={18} /> },
   ];
 
   return (
