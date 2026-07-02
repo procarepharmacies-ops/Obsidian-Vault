@@ -1,23 +1,38 @@
 ---
 type: scripts-guide
 tags: [commands, terminal, setup]
-updated: 2026-05-10
+updated: 2026-06-05
+platform: RHEL (Red Hat Enterprise Linux)
 ---
 
 # ⚡ Terminal Command Center
 
-> **How it works:** Copy any command below → paste in PowerShell → get results.
+> **How it works:** Copy any command below → paste in your RHEL terminal → get results.
 > Obsidian and terminal stay in sync automatically (same files on disk).
+
+---
+
+## 🔧 Prerequisites (RHEL — run once)
+
+```bash
+# Install curl and jq (required by scripts)
+sudo dnf install -y curl jq
+
+# Install Node.js (required for MCP servers)
+sudo dnf install -y nodejs npm
+
+# Make all scripts executable
+chmod +x /home/ahmed/Obsidian-Vault/scripts/*.sh
+```
 
 ---
 
 ## 🚀 Step 1 — First Time Setup (Run Once)
 
 ### Install All Obsidian Plugins
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
-cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
-.\01-install-plugins.ps1
+```bash
+cd /home/ahmed/Obsidian-Vault/scripts
+bash 01-install-plugins.sh
 ```
 > After this: Open Obsidian → Settings ⚙️ → Community Plugins → toggle ON each plugin
 
@@ -26,9 +41,9 @@ cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
 ## 📊 Step 2 — Check Status Any Time
 
 ### See All Tasks + Plugin Status
-```powershell
-cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
-.\02-check-status.ps1
+```bash
+cd /home/ahmed/Obsidian-Vault/scripts
+bash 02-check-status.sh
 ```
 
 ---
@@ -36,9 +51,9 @@ cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
 ## ✅ Step 3 — Mark Tasks Done
 
 ### Mark a task done (from terminal)
-```powershell
-cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
-.\03-mark-done.ps1 "Install plugins"
+```bash
+cd /home/ahmed/Obsidian-Vault/scripts
+bash 03-mark-done.sh "Install plugins"
 ```
 > Replace `"Install plugins"` with any task name (partial match works)
 
@@ -64,13 +79,16 @@ Obsidian Vault (disk)
 ## 📁 Scripts Location
 
 ```
-Obsidian Vault/
+/home/ahmed/Obsidian-Vault/
 └── scripts/
-    ├── 01-install-plugins.ps1        ← Install core 4 plugins
-    ├── 02-check-status.ps1           ← Check all tasks + plugins
-    ├── 03-mark-done.ps1              ← Mark task complete
-    ├── 04-install-power-plugins.ps1  ← Install 15 power plugins
-    └── README.md                     ← This file
+    ├── 01-install-plugins.sh        ← Install core 4 plugins
+    ├── 02-check-status.sh           ← Check all tasks + plugins
+    ├── 03-mark-done.sh              ← Mark task complete
+    ├── 04-install-power-plugins.sh  ← Install 15 power plugins
+    ├── 05-install-antigravity-mcp.sh← Install Gemini MCP servers
+    ├── 06-add-brave-search.sh       ← Add Brave Search MCP
+    ├── 07-add-duckduckgo-search.sh  ← Add DuckDuckGo MCP (no key needed)
+    └── README.md                    ← This file
 ```
 
 ---
@@ -78,26 +96,41 @@ Obsidian Vault/
 ## ⚡ Quick Copy Commands
 
 **Open scripts folder in terminal:**
-```powershell
-cd "C:\Users\Ahmed\Documents\Obsidian Vault\scripts"
+```bash
+cd /home/ahmed/Obsidian-Vault/scripts
 ```
 
 **Install core plugins (run once):**
-```powershell
-.\01-install-plugins.ps1
+```bash
+bash 01-install-plugins.sh
 ```
 
 **Install power plugins (15 more):**
-```powershell
-.\04-install-power-plugins.ps1
+```bash
+bash 04-install-power-plugins.sh
+```
+
+**Install Antigravity MCP servers:**
+```bash
+bash 05-install-antigravity-mcp.sh
+```
+
+**Add Brave Search (needs API key):**
+```bash
+bash 06-add-brave-search.sh YOUR_API_KEY
+```
+
+**Add DuckDuckGo Search (free, no key):**
+```bash
+bash 07-add-duckduckgo-search.sh
 ```
 
 **Check status:**
-```powershell
-.\02-check-status.ps1
+```bash
+bash 02-check-status.sh
 ```
 
 **Mark done:**
-```powershell
-.\03-mark-done.ps1 "task name here"
+```bash
+bash 03-mark-done.sh "task name here"
 ```
