@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "hero",
+      "path": "procare-react-app/src/assets/hero.png"
+    },
+    {
+      "basename": "vite",
+      "path": "procare-react-app/src/assets/vite.svg"
+    },
+    {
+      "basename": "claude",
+      "path": "AI-Brain/claude.md"
+    },
+    {
       "basename": "202606031226",
       "path": "202606031226.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "task_plan",
       "path": "AI-Brain/task_plan.md"
-    },
-    {
-      "basename": "claude",
-      "path": "AI-Brain/claude.md"
     },
     {
       "basename": "calendar-default",
