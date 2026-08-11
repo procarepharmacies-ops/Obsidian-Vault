@@ -35,24 +35,17 @@
             "id": "268a80339ac67156",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "sessions/20260811_152800_desktop_organize.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
-              "icon": "lucide-file",
-              "title": "20260811_152800_desktop_organize"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ],
@@ -302,9 +295,10 @@
   },
   "active": "268a80339ac67156",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "_COMMUNITY_Community 247.md",
     "sessions/20260811_183000_comprehensive_organization.md",
     "sessions/20260811_152800_desktop_organize.md",
-    "_COMMUNITY_Community 247.md",
     "AI-Brain/gemini.md",
     "AI-Brain/claude.md",
     "Pharmacy_Project/frontend/node_modules/@reduxjs/toolkit/skills/model-redux-state/build-slices-and-selectors/SKILL.md",
@@ -338,8 +332,6 @@
     "AI-Brain/📋 Ahmed's Tasks.md",
     "architecture/obsidian-git-setup.md",
     "Dashboard google Ai studio.md",
-    "202605120201.md",
-    "README.md",
-    "Untitled.canvas"
+    "202605120201.md"
   ]
 }
