@@ -176,7 +176,7 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 1778386385515,
+  "lastAutomaticBackup": 1786168499642,
   "meetingProcessorOptions": {
     "summary": true,
     "actionItems": true,
@@ -215,8 +215,8 @@
   "lastKnownVersion": "5.6.0",
   "_backupMeta": {
     "type": "automatic",
-    "timestamp": 1778535514547,
-    "createdAt": "2026-05-11T21:38:34.547Z",
+    "timestamp": 1786450798687,
+    "createdAt": "2026-08-11T12:19:58.687Z",
     "version": "1.1",
     "redactedSecrets": true
   }

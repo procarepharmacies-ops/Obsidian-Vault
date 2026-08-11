@@ -40,7 +40,16 @@
   "attachmentsDirectory": "SystemSculpt/Attachments",
   "extractionsDirectory": "SystemSculpt/Extractions",
   "systemPromptsDirectory": "SystemSculpt/System Prompts",
-  "verifiedDirectories": [],
+  "verifiedDirectories": [
+    "SystemSculpt",
+    "SystemSculpt/Chats",
+    "SystemSculpt/Saved Chats",
+    "SystemSculpt/Web Research",
+    "SystemSculpt/Recordings",
+    "SystemSculpt/System Prompts",
+    "SystemSculpt/Attachments",
+    "SystemSculpt/Extractions"
+  ],
   "workflowEngine": {
     "enabled": true,
     "inboxRoutingEnabled": true,
@@ -79,7 +88,7 @@
   "titleGenerationProviderId": "systemsculpt",
   "titleGenerationModelId": "",
   "customProviders": [],
-  "studioPiAuthMigrationVersion": 0,
+  "studioPiAuthMigrationVersion": 1,
   "modelFilterSettings": {
     "showVisionModels": false,
     "showReasoningModels": false,
@@ -167,7 +176,7 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 0,
+  "lastAutomaticBackup": 1785372995720,
   "meetingProcessorOptions": {
     "summary": true,
     "actionItems": true,
@@ -203,10 +212,11 @@
   },
   "runtimeToolIncompatibleModels": {},
   "runtimeImageIncompatibleModels": {},
+  "lastKnownVersion": "5.6.0",
   "_backupMeta": {
     "type": "automatic",
-    "timestamp": 1778386385488,
-    "createdAt": "2026-05-10T04:13:05.488Z",
+    "timestamp": 1785968938288,
+    "createdAt": "2026-08-05T22:28:58.288Z",
     "version": "1.1",
     "redactedSecrets": true
   }
