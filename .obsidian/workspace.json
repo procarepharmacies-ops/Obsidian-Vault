@@ -11,15 +11,52 @@
             "id": "15a3e6e74e58f5c5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "procare-react-app/src/assets/hero.png"
+                "file": "_COMMUNITY_Community 247.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "hero"
+              "icon": "lucide-file",
+              "title": "_COMMUNITY_Community 247"
+            }
+          },
+          {
+            "id": "268a80339ac67156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sessions/20260811_152800_desktop_organize.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "20260811_152800_desktop_organize"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,13 +300,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "15a3e6e74e58f5c5",
+  "active": "268a80339ac67156",
   "lastOpenFiles": [
     "sessions/20260811_183000_comprehensive_organization.md",
     "sessions/20260811_152800_desktop_organize.md",
-    "sessions",
-    "procare-react-app/src/assets/vite.svg",
+    "_COMMUNITY_Community 247.md",
+    "AI-Brain/gemini.md",
     "AI-Brain/claude.md",
+    "Pharmacy_Project/frontend/node_modules/@reduxjs/toolkit/skills/model-redux-state/build-slices-and-selectors/SKILL.md",
+    "procare-react-app/src/assets/vite.svg",
+    "procare-react-app/src/assets/hero.png",
+    "sessions",
     "202606031226.md",
     "Untitled Kanban.md",
     "202606031225.md",
@@ -279,7 +320,6 @@
     "AI-Brain/📋 Team Command Center.md",
     "AI-Brain/📖 How We Work Together.md",
     "AI-Brain/🔌 Plugin Guide.md",
-    "AI-Brain/gemini.md",
     "AI-Brain/🤖 Antigravity MCP Guide.md",
     "AI-Brain/findings.md",
     "AI-Brain/task_plan.md",
@@ -300,8 +340,6 @@
     "Dashboard google Ai studio.md",
     "202605120201.md",
     "README.md",
-    "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md",
-    "AI-Brain/progress.md",
     "Untitled.canvas"
   ]
 }

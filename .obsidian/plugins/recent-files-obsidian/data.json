@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "hero",
-      "path": "procare-react-app/src/assets/hero.png"
+      "basename": "20260811_152800_desktop_organize",
+      "path": "sessions/20260811_152800_desktop_organize.md"
+    },
+    {
+      "basename": "20260811_183000_comprehensive_organization",
+      "path": "sessions/20260811_183000_comprehensive_organization.md"
+    },
+    {
+      "basename": "_COMMUNITY_Community 247",
+      "path": "_COMMUNITY_Community 247.md"
+    },
+    {
+      "basename": "gemini",
+      "path": "AI-Brain/gemini.md"
+    },
+    {
+      "basename": "claude",
+      "path": "AI-Brain/claude.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "Pharmacy_Project/frontend/node_modules/@reduxjs/toolkit/skills/model-redux-state/build-slices-and-selectors/SKILL.md"
     },
     {
       "basename": "vite",
       "path": "procare-react-app/src/assets/vite.svg"
     },
     {
-      "basename": "claude",
-      "path": "AI-Brain/claude.md"
+      "basename": "hero",
+      "path": "procare-react-app/src/assets/hero.png"
     },
     {
       "basename": "202606031226",
@@ -47,10 +67,6 @@
     {
       "basename": "🔌 Plugin Guide",
       "path": "AI-Brain/🔌 Plugin Guide.md"
-    },
-    {
-      "basename": "gemini",
-      "path": "AI-Brain/gemini.md"
     },
     {
       "basename": "🤖 Antigravity MCP Guide",
