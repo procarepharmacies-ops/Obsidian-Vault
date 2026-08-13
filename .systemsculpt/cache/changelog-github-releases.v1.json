@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1786450798720,
-  "etag": "W/\"aa23716233763ceff385a329cbb56400fa5c8ab5ba4cfb72216c8c67484db4ff\"",
+  "fetchedAt": 1786623721956,
+  "etag": "W/\"6577a356d46d023d953bb9e136ce4d44cf1edf6001f869e601cec0beaa646606\"",
   "entries": [
+    {
+      "version": "6.6.0",
+      "date": "Aug 13, 2026",
+      "notes": "# SystemSculpt 6.6.0\n\nSystemSculpt 6.6.0 makes ChatView activity calmer, clearer, and more stable during long responses.\n\n- Reasoning and tool calls now share one compact activity timeline.\n- Active responses show a live `Working for` timer.\n- Completed responses group activity inside one closed `Worked for` drawer.\n- Earlier activity stays inside a closed `+N previous tool calls` drawer, with closed reasoning and tool detail drawers inside it.\n- Final answers and Sources stay visible outside the activity drawer.\n- Tool rows use compact status marks and clearer details without passive response tooltips.\n- Streaming Markdown keeps stable rendered nodes, focus, selection, and interactive Obsidian content.\n- Scroll anchoring keeps the current reading position stable as messages stream, drawers change, and embedded content loads.\n- Cancelled responses keep one stable `You stopped after` presentation across live settlement and reload.\n\n## Verified release artifacts\n\nThe published assets are the exact bytes tested in Obsidian 1.13.4.\n\n| Asset | Size | SHA-256 |\n|---|---:|---|\n| `manifest.json` | 389 bytes | `0dbc6a4d41fbb0242a1d8b0235966dcc83870e9bcd3916697ab8a3155a5610c6` |\n| `main.js` | 3,923,464 bytes | `4551071e69956a746d2aa2a3db604c94b7c6e03166f490410ede9dd6aef97d62` |\n| `styles.css` | 242,138 bytes | `6af542f3c5fde61610123eeb505a83231bd7b90f40509851dac01e2498bb81f8` |\n\n## Build provenance\n\n- Revision: `4e23265cc65918a4505b4eadd2b384987e1812d5`\n- Git state: clean\n- Node.js: `v26.5.0`\n- Platform: `darwin`\n- Architecture: `arm64`\n",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.6.0"
+    },
+    {
+      "version": "6.5.1",
+      "date": "Aug 12, 2026",
+      "notes": "Surfaces the server report id on final turn failures, so an error message in chat now carries the id needed to correlate with server-side diagnostics.",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.5.1"
+    },
     {
       "version": "6.5.0",
       "date": "Aug 11, 2026",
@@ -590,18 +602,6 @@
       "date": "May 5, 2025",
       "notes": "refactor: Update references from Patreon to SystemSculpt license in various components and documentation",
       "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.8"
-    },
-    {
-      "version": "1.1.7",
-      "date": "May 5, 2025",
-      "notes": "Added new prompt configuration modals and improved transcription handling for a streamlined user experience\n\n- Introduced a modal to configure title generation prompts with options for presets and custom prompt files, accessible directly from the settings tab.\n- Added a tabbed modal for post-processing prompt editing, replacing the previous version to provide clearer options for preset selection or custom file usage.\n- Enhanced prompt operations with improved error handling and loading indicators during configuration.\n- Improved transcription handling by checking for existing markdown files before saving and updating notices for auto-paste settings.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.7"
-    },
-    {
-      "version": "1.1.6",
-      "date": "May 4, 2025",
-      "notes": "New user-facing improvements in transcription settings and UI enhancements\n\n- Added a \"Clean Output Only\" option in transcription settings for simplified output.\n- Implemented a countdown timer to auto-close the transcription notice after completion.\n- Introduced a microphone selection interface with refresh functionality in the settings.\n- Integrated custom transcription endpoint settings, allowing users to input endpoint URL, API key, and model selection.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.6"
     }
   ]
 }
