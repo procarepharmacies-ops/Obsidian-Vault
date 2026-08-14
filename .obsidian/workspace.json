@@ -11,52 +11,20 @@
             "id": "15a3e6e74e58f5c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "_COMMUNITY_Community 247.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
-              "icon": "lucide-file",
-              "title": "_COMMUNITY_Community 247"
-            }
-          },
-          {
-            "id": "268a80339ac67156",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-08-12.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-08-12"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -300,12 +268,12 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "268a80339ac67156",
+  "active": "15a3e6e74e58f5c5",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "2026-08-12.md",
     "_COMMUNITY_Community 247.md",
     "sessions/20260811_183000_comprehensive_organization.md",
+    "Untitled.canvas",
     "sessions/20260811_152800_desktop_organize.md",
     "AI-Brain/gemini.md",
     "AI-Brain/claude.md",
