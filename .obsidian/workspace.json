@@ -275,7 +275,46 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2ee0f65d16f0b7ae",
+  "floating": {
+    "id": "2a4cd0fcf9c73f1b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5297e2d3d28193f6",
+        "type": "window",
+        "children": [
+          {
+            "id": "8f2e59826670f919",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "915097d7a4cee74a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://buymeacoffee.com/chhoumann",
+                    "title": "Christian Bager Bach Houmann is creating content and software",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Christian Bager Bach Houmann is creating content and software"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 128,
+        "y": 0,
+        "width": 1024,
+        "height": 672,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "915097d7a4cee74a",
   "lastOpenFiles": [
     "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
     "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
