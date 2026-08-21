@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "840926a94169dd90",
+        "id": "073107a03f2893d5",
         "type": "tabs",
         "children": [
           {
-            "id": "15a3e6e74e58f5c5",
+            "id": "2ee0f65d16f0b7ae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-08-12__work kanban task t_7117a356"
             }
           }
         ]
@@ -261,52 +275,18 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "floating": {
-    "id": "c489903ecc6771ee",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7e4a28feb99283bb",
-        "type": "window",
-        "children": [
-          {
-            "id": "3d773d4905327d63",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b450e2ebdde275de",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://community.sketch-your-mind.com/sym",
-                    "title": "Read Sketch Your Mind - Learn to Think Visually - Sketch Your Mind",
-                    "mode": "blank"
-                  },
-                  "icon": "globe-2",
-                  "title": "Read Sketch Your Mind - Learn to Think Visually - Sketch Your Mind"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 128,
-        "y": 0,
-        "width": 1024,
-        "height": 672,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "15a3e6e74e58f5c5",
+  "active": "2ee0f65d16f0b7ae",
   "lastOpenFiles": [
+    "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
+    "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
+    "TaskNotes/Tasks",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "Recording 20260822013646.m4a",
     "AI-Brain/Chats/2026-08-12__(free.md",
     "AI-Brain/Chats/2026-08-12__4 Hermes agent local machine control prompts.md",
     "AI-Brain/Chats/2026-08-12__228 commits behinfd what _.md",
     "AI-Brain/Chats/2026-08-12__work kanban task t_1e88cc95.md",
-    "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
     "Untitled.canvas",
     "2026-08-12.md",
     "_COMMUNITY_Community 247.md",
@@ -335,11 +315,6 @@
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/kanban-default.base",
     "202606021800.md",
-    "Pharmacy_Project/backend/app/api/__pycache__/loyalty.cpython-314.pyc",
-    "Pharmacy_Project/backend/app/api/__pycache__/clinical.cpython-314.pyc",
-    "Pharmacy_Project/backend/app/api/loyalty.py",
-    "Pharmacy_Project/backend/app/api/clinical.py",
-    "AI-Brain/🤖 Gemini's Tasks.md",
-    "Untitled.base"
+    "Pharmacy_Project/backend/app/api/__pycache__/loyalty.cpython-314.pyc"
   ]
 }
