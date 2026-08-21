@@ -1,8 +1,50 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": 1786623721956,
-  "etag": "W/\"6577a356d46d023d953bb9e136ce4d44cf1edf6001f869e601cec0beaa646606\"",
+  "fetchedAt": 1787351343141,
+  "etag": "W/\"fb330a7bbb8dc41b9eacfc726dd2482afaeb45c72a52489ceba144404552f4b0\"",
   "entries": [
+    {
+      "version": "6.7.2",
+      "date": "Aug 18, 2026",
+      "notes": "## Fixes\n\n- **No more \"Sign-in didn't finish\" flash.** After signing in, returning to Obsidian could briefly show an error screen before the success one. Two completion paths (the return link and the automatic background check) were racing each other; now exactly one finishes the sign-in and only one screen appears.\n\nNo action needed — update via Community Plugins as usual.",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.7.2"
+    },
+    {
+      "version": "6.7.1",
+      "date": "Aug 18, 2026",
+      "notes": "## Fixes\n\n- **Mobile sign-in opens the browser reliably.** On iOS the sign-in page sometimes never opened (\"Waiting for the browser…\" forever). External links now open through the platform's native link handling, which works consistently on iOS, Android, and desktop.\n- **Sign-in finishes automatically — no callback required.** SystemSculpt now confirms your sign-in directly with systemsculpt.com while the browser is open, so you're signed in the moment you finish — even if the return link back into Obsidian is blocked or never fires. If the return link does arrive late, you're greeted as signed in instead of seeing an expired-request error.\n- The sign-in screen now explains it completes automatically, and adds an \"Open the sign-in page again\" link in case the browser tab was lost. The paste-a-code fallback remains available.\n\nNo action needed — update via Community Plugins as usual.",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.7.1"
+    },
+    {
+      "version": "6.7.0",
+      "date": "Aug 18, 2026",
+      "notes": "## Guided plan gating, sign-in, and mobile purchase flow\n\n- Sign in with a free account and stay signed in — paid features now open a guided plan modal (lifetime, monthly, compare plans, license re-sync) instead of failing silently\n- One-time welcome for new users, plus a sign-in reminder in fresh chats\n- Browser sign-in handoff with a manual connection-code fallback for devices where the deep link can't return\n- Clear plan-required states across chat, transcription, audio processing, document conversion, Similar Notes, and Studio AI\n- Mobile: modals are now full sheets with full-width touch-friendly actions",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.7.0"
+    },
+    {
+      "version": "6.6.4",
+      "date": "Aug 14, 2026",
+      "notes": "# SystemSculpt 6.6.4\n\nSystemSculpt 6.6.4 makes Chat activity easier to scan and explore.\n\n- Reasoning and adjacent tool calls now appear in one compact activity drawer.\n- Completed work uses clear labels such as `Reasoned`, `Read 4 files`, and `Searched 7 patterns`.\n- Active work uses progress labels such as `Reasoning...` and `Reading 3 files...`.\n- Each activity remains available inside the drawer with consistent icons, spacing, and ownership lines.\n",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.6.4"
+    },
+    {
+      "version": "6.6.3",
+      "date": "Aug 14, 2026",
+      "notes": "# SystemSculpt 6.6.3\n\nSystemSculpt 6.6.3 makes new plugin releases clear, inviting, and easy to install.\n\n- Each new version now gets one polished update modal across desktop and mobile.\n- The “Let's evolve” action opens the official SystemSculpt page in Obsidian Community Plugins.\n- Dismissing the modal keeps the persistent desktop status-bar reminder without showing the modal again for that version.\n- The manual `Check for updates` command can reopen the modal at any time.\n- Obsidian Community Plugins remains the only owner of download, installation, activation, and rollback.\n",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.6.3"
+    },
+    {
+      "version": "6.6.2",
+      "date": "Aug 14, 2026",
+      "notes": "# SystemSculpt 6.6.2\n\nSystemSculpt 6.6.2 makes new releases visible inside Obsidian within about one minute.\n\n- SystemSculpt checks for a published release at startup, every minute, and when the user returns to Obsidian.\n- Each release gets one notice per app session, plus a persistent desktop status-bar action until installation.\n- A manual `Check for updates` command gives explicit current, available, or unavailable feedback.\n- Update checks use first-party static release metadata and never call the GitHub Releases API at runtime.\n- Obsidian Community Plugins remains the only owner of download, installation, activation, and rollback.\n",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.6.2"
+    },
+    {
+      "version": "6.6.1",
+      "date": "Aug 14, 2026",
+      "notes": "# SystemSculpt 6.6.1\n\nSystemSculpt 6.6.1 makes ChatView failures recoverable and easier to diagnose without exposing chat content.\n\n- Partial assistant output now stays visible when a response fails.\n- Failed responses show compact Retry and Copy report actions without an empty assistant row.\n- Retry can recover in the same chat without leaving stale active content or locking the composer.\n- Client incident reports now include bounded rendering, scroll, resource, transport, lifecycle, and failure evidence.\n- Incident reports use canonical JSON, stay vault-local, and exclude prompts, responses, paths, tool payloads, conversation IDs, request IDs, and attachments.\n- Copied report bytes remain exact after plugin reload, including storage-failure memory fallback.\n- Failed response drawers stay closed, terminal animations stop, and scroll position stays stable.\n",
+      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/6.6.1"
+    },
     {
       "version": "6.6.0",
       "date": "Aug 13, 2026",
@@ -560,48 +602,6 @@
       "date": "May 20, 2025",
       "notes": "Enhanced plugin experience with updated naming, improved license handling, advanced search features, and OpenAI API key validation.\n\n- Updated terminology from \"Cloud Models\" to \"AI Models\" for clearer, consistent naming in models and settings.\n- Enhanced license validation with more accurate feedback and error handling, ensuring users are immediately informed about their license status.\n- Introduced a Global Search tab with a modern, OmniSearch-inspired design, enabling users to search across all notes with intuitive semantic hints.\n- Upgraded the Similar Notes view by adding a tabbed interface and an empty state progress bar, improving navigation and visual feedback during searches.\n- Added a validation button for OpenAI API keys in the embeddings section, allowing users to verify their key's validity directly.",
       "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.15"
-    },
-    {
-      "version": "1.1.14",
-      "date": "May 19, 2025",
-      "notes": "Improve the plugin's UI and synchronization features with new modals, consistent styling, and enhanced backup and changelog functionality.\n\n- Added a SystemSculpt models modal in settings that dynamically displays model count and handles errors during model loading.\n- Introduced a custom provider modal alongside consistent component styling guidelines to streamline provider management.\n- Developed a changelog tab that integrates GitHub releases and displays a timeline UI for easier feature tracking.\n- Updated the manual backup process by replacing the browser prompt with a styled input field for a smoother user experience.\n- Enhanced note synchronization with improved file-open and chat-loaded handling.\n- Refined model selection in settings and modals by transitioning to a consistently used identifier.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.14"
-    },
-    {
-      "version": "1.1.13",
-      "date": "May 18, 2025",
-      "notes": "Improve model detection accuracy and enhance chat favorites functionality\n\n- Refined native model detection logic to ensure more accurate identification of models from API responses, providing more reliable model selection.\n- Introduced chat favorites management in the UI, including toggling, sorting, and filtering options within the chat modal.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.13"
-    },
-    {
-      "version": "1.1.12",
-      "date": "May 17, 2025",
-      "notes": "feat: Enhance embeddings service and API client with improved error handling and directory management\n\n- Increased critical initialization timeout from 2 seconds to 7 seconds in main.ts to allow for longer startup processes.\n- Updated EmbeddingsApiClient to handle API key requirements more flexibly for OpenAI and custom providers, ensuring better error messaging.\n- Introduced a new method in EmbeddingsService to determine the effective embeddings directory based on provider settings, improving directory management.\n- Added checks for custom provider configuration in EmbeddingsService to prevent embedding generation if the endpoint is not set.\n- Enhanced utility functions for normalizing endpoint URLs and averaging embeddings, improving robustness and error handling.\n- Updated UI components to reflect changes in settings and provide clearer user feedback regarding embedding configurations.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.12"
-    },
-    {
-      "version": "1.1.11",
-      "date": "May 17, 2025",
-      "notes": "feat: Remove migration utilities and modal from storage management\n\n- Deleted MigrationUtility and MigrationModal classes to streamline storage management.\n- Updated StorageManager import in main.ts to reflect the removal of migration-related components.\n- Adjusted storage initialization logic to eliminate migration checks, simplifying the startup process.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.11"
-    },
-    {
-      "version": "1.1.10",
-      "date": "May 17, 2025",
-      "notes": "Enhanced search, embeddings, and settings for a more streamlined user experience\n\n- Introduced a new OmniSearch modal that displays recent files when the search query is empty, with improved keyboard navigation and enhanced styling for better visibility.\n- Upgraded embeddings management with a refreshed UI that includes clear status feedback, metadata display (showing file dates and content previews), an integrated retry option for skipped files, and an auto-resume setting.\n- Improved embedding UI consistency by consolidating styles and refining progress indicators and layout for a cohesive design.\n- Updated embedding provider settings to support only OpenAI with a new default model, ensuring optimized performance and cost efficiency.\n- Enhanced the Similar Notes view by adding pagination and a \"Load More\" button for easier navigation through search results.\n- Introduced a user-friendly Backup & Restore modal for streamlined settings backup and restoration.\n- Streamlined embedding processes by automating repair functions, removing the need for manual interventions, and simplifying the overall interface.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.10"
-    },
-    {
-      "version": "1.1.9",
-      "date": "May 8, 2025",
-      "notes": "Improve embedding configuration experience for users by adding new provider options and a dedicated settings tab\n\n- Introduced support for multiple embedding providers (OpenAI, LM Studio, and custom endpoints) to offer flexible configuration.\n- Added dynamic settings in the embeddings tab, including a dropdown for provider selection with corresponding API key and endpoint options, as well as a confirmation prompt for recalculating embeddings.\n- Consolidated OpenAI API key and embedding settings into a dedicated embeddings tab for easier access and management.",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.9"
-    },
-    {
-      "version": "1.1.8",
-      "date": "May 5, 2025",
-      "notes": "refactor: Update references from Patreon to SystemSculpt license in various components and documentation",
-      "url": "https://github.com/SystemSculpt/obsidian-systemsculpt-ai/releases/tag/1.1.8"
     }
   ]
 }

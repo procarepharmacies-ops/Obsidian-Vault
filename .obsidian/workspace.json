@@ -11,17 +11,10 @@
             "id": "15a3e6e74e58f5c5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -207,8 +200,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -268,12 +261,56 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
+  "floating": {
+    "id": "c489903ecc6771ee",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7e4a28feb99283bb",
+        "type": "window",
+        "children": [
+          {
+            "id": "3d773d4905327d63",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b450e2ebdde275de",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://community.sketch-your-mind.com/sym",
+                    "title": "Read Sketch Your Mind - Learn to Think Visually - Sketch Your Mind",
+                    "mode": "blank"
+                  },
+                  "icon": "globe-2",
+                  "title": "Read Sketch Your Mind - Learn to Think Visually - Sketch Your Mind"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 128,
+        "y": 0,
+        "width": 1024,
+        "height": 672,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
   "active": "15a3e6e74e58f5c5",
   "lastOpenFiles": [
+    "AI-Brain/Chats/2026-08-12__(free.md",
+    "AI-Brain/Chats/2026-08-12__4 Hermes agent local machine control prompts.md",
+    "AI-Brain/Chats/2026-08-12__228 commits behinfd what _.md",
+    "AI-Brain/Chats/2026-08-12__work kanban task t_1e88cc95.md",
+    "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
+    "Untitled.canvas",
     "2026-08-12.md",
     "_COMMUNITY_Community 247.md",
     "sessions/20260811_183000_comprehensive_organization.md",
-    "Untitled.canvas",
     "sessions/20260811_152800_desktop_organize.md",
     "AI-Brain/gemini.md",
     "AI-Brain/claude.md",
@@ -303,10 +340,6 @@
     "Pharmacy_Project/backend/app/api/loyalty.py",
     "Pharmacy_Project/backend/app/api/clinical.py",
     "AI-Brain/🤖 Gemini's Tasks.md",
-    "Untitled.base",
-    "202605180428.md",
-    "AI-Brain/📋 Ahmed's Tasks.md",
-    "architecture/obsidian-git-setup.md",
-    "Dashboard google Ai studio.md"
+    "Untitled.base"
   ]
 }

@@ -876,9 +876,12 @@ Command: cd /c/Users/Ahmed
 hermes dashboard --skip-build --no-open --port 9119 2>&1 | tail -15
 Output:
 bash: no job control in this shell
-→ Skipping web UI build (--skip-build); using dist at C:\Users\Ahmed\AppData\Local\hermes\hermes-agent\apps\desktop\release\win-unpacked\resources\app.asar.unpacked\dist
-HERMES_DASHBOARD_READY port=9119
-  Hermes Web UI → http://127.0.0.1:9119
+→ Skipping web UI build (--skip-build); using dist at C:\Users\Ahmed\AppData\Local\hermes\hermes-agent\apps\desktop\release\win-unpacked\resources\app.asar.unpacked\dist
+
+HERMES_DASHBOARD_READY port=9119
+
+  Hermes Web UI → http://127.0.0.1:9119
+
 ]
 
 ### TOOL
@@ -2960,9 +2963,12 @@ Command: cd /c/Users/Ahmed
 hermes dashboard --skip-build --no-open --port 9119 2>&1 | tail -15
 Output:
 bash: no job control in this shell
-→ Skipping web UI build (--skip-build); using dist at C:\Users\Ahmed\AppData\Local\hermes\hermes-agent\apps\desktop\release\win-unpacked\resources\app.asar.unpacked\dist
-HERMES_DASHBOARD_READY port=9119
-  Hermes Web UI → http://127.0.0.1:9119
+→ Skipping web UI build (--skip-build); using dist at C:\Users\Ahmed\AppData\Local\hermes\hermes-agent\apps\desktop\release\win-unpacked\resources\app.asar.unpacked\dist
+
+HERMES_DASHBOARD_READY port=9119
+
+  Hermes Web UI → http://127.0.0.1:9119
+
 ]
 
 ### ASSISTANT
