@@ -6,3 +6,6 @@
 .trash/
 *.DS_Store
 .tmp/
+
+# SystemSculpt rolling/transient diagnostics (constantly rewritten — not version-controlled)
+.systemsculpt/diagnostics/*-latest.*
