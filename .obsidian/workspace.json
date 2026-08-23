@@ -11,24 +11,10 @@
             "id": "2ee0f65d16f0b7ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -241,8 +227,8 @@
       "publish:Publish changes...": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -277,9 +263,11 @@
   },
   "active": "2ee0f65d16f0b7ae",
   "lastOpenFiles": [
+    "_COMMUNITY_Community 1.md",
+    "graphify-out/GRAPH_REPORT.md",
     "Untitled 2.base",
-    "Recording 20260822013646.m4a",
     "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
+    "Recording 20260822013646.m4a",
     "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
     "TaskNotes/Tasks",
     "Untitled 1.base",
@@ -309,7 +297,6 @@
     "AI-Brain/🔌 Plugin Guide.md",
     "AI-Brain/🤖 Antigravity MCP Guide.md",
     "AI-Brain/findings.md",
-    "AI-Brain/task_plan.md",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/relationships.base",
