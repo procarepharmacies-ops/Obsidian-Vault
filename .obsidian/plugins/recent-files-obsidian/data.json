@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "_COMMUNITY_Community 346",
+      "path": "_COMMUNITY_Community 346.md"
+    },
+    {
+      "basename": "_COMMUNITY_Community 278",
+      "path": "_COMMUNITY_Community 278.md"
+    },
+    {
       "basename": "_COMMUNITY_Community 1",
       "path": "_COMMUNITY_Community 1.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "tasks-default",
       "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
-      "basename": "Drawing 2026-05-10 07.19.53.excalidraw",
-      "path": "Excalidraw/Drawing 2026-05-10 07.19.53.excalidraw.md"
-    },
-    {
-      "basename": "progress",
-      "path": "AI-Brain/progress.md"
     }
   ],
   "omittedPaths": [],

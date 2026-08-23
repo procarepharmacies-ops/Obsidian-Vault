@@ -11,10 +11,24 @@
             "id": "2ee0f65d16f0b7ae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "_COMMUNITY_Community 346.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_COMMUNITY_Community 346"
             }
           }
         ]
@@ -263,6 +277,8 @@
   },
   "active": "2ee0f65d16f0b7ae",
   "lastOpenFiles": [
+    "_COMMUNITY_Community 278.md",
+    "_COMMUNITY_Community 346.md",
     "_COMMUNITY_Community 1.md",
     "graphify-out/GRAPH_REPORT.md",
     "Untitled 2.base",
@@ -295,8 +311,6 @@
     "AI-Brain/📋 Team Command Center.md",
     "AI-Brain/📖 How We Work Together.md",
     "AI-Brain/🔌 Plugin Guide.md",
-    "AI-Brain/🤖 Antigravity MCP Guide.md",
-    "AI-Brain/findings.md",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/relationships.base",
