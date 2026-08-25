@@ -1,28 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "_COMMUNITY_Community 346",
-      "path": "_COMMUNITY_Community 346.md"
+      "basename": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks",
+      "path": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md"
     },
     {
-      "basename": "_COMMUNITY_Community 278",
-      "path": "_COMMUNITY_Community 278.md"
+      "basename": "2026-08-25",
+      "path": "2026-08-25.md"
     },
     {
-      "basename": "_COMMUNITY_Community 1",
-      "path": "_COMMUNITY_Community 1.md"
+      "basename": "kanban-default",
+      "path": "TaskNotes/Views/kanban-default.base"
+    },
+    {
+      "basename": "LICENSE",
+      "path": "Pharmacy_Project/backend/venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "basename": "LICENSE",
+      "path": "Pharmacy_Project/backend/venv/Lib/site-packages/uvicorn-0.47.0.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "basename": "main-dashboard",
+      "path": "AI-Brain/Dashboards/main-dashboard.md"
+    },
+    {
+      "basename": "README",
+      "path": "scripts/README.md"
     },
     {
       "basename": "GRAPH_REPORT",
       "path": "graphify-out/GRAPH_REPORT.md"
     },
     {
-      "basename": "Untitled 2",
-      "path": "Untitled 2.base"
+      "basename": "_COMMUNITY_Community 278",
+      "path": "_COMMUNITY_Community 278.md"
     },
     {
-      "basename": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks",
-      "path": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md"
+      "basename": "_COMMUNITY_Community 346",
+      "path": "_COMMUNITY_Community 346.md"
+    },
+    {
+      "basename": "OpenRouter-API-Key",
+      "path": "OpenRouter-API-Key.md"
+    },
+    {
+      "basename": "_COMMUNITY_Community 1",
+      "path": "_COMMUNITY_Community 1.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Untitled 2.base"
     },
     {
       "basename": "Recording 20260822013646",
@@ -113,10 +141,6 @@
       "path": "AI-Brain/Templates/concept-note.md"
     },
     {
-      "basename": "main-dashboard",
-      "path": "AI-Brain/Dashboards/main-dashboard.md"
-    },
-    {
       "basename": "📋 Team Command Center",
       "path": "AI-Brain/📋 Team Command Center.md"
     },
@@ -153,10 +177,6 @@
       "path": "TaskNotes/Views/relationships.base"
     },
     {
-      "basename": "kanban-default",
-      "path": "TaskNotes/Views/kanban-default.base"
-    },
-    {
       "basename": "202606021800",
       "path": "202606021800.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "obsidian-git-setup",
       "path": "architecture/obsidian-git-setup.md"
-    },
-    {
-      "basename": "Dashboard google Ai studio",
-      "path": "Dashboard google Ai studio.md"
-    },
-    {
-      "basename": "202605120201",
-      "path": "202605120201.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "agenda-default",
-      "path": "TaskNotes/Views/agenda-default.base"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
     }
   ],
   "omittedPaths": [],

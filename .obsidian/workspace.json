@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_COMMUNITY_Community 346.md",
+                "file": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,45 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_COMMUNITY_Community 346"
+              "title": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks"
+            }
+          },
+          {
+            "id": "7714e0bf61b0fe17",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-stats-view",
+              "state": {},
+              "icon": "bar-chart",
+              "title": "Pomodoro stats"
+            }
+          },
+          {
+            "id": "fc024674441b501c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -275,14 +310,21 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2ee0f65d16f0b7ae",
+  "active": "fc024674441b501c",
   "lastOpenFiles": [
+    "2026-08-25.md",
+    "TaskNotes/Views/kanban-default.base",
+    "Pharmacy_Project/backend/venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md",
+    "Pharmacy_Project/backend/venv/Lib/site-packages/uvicorn-0.47.0.dist-info/licenses/LICENSE.md",
+    "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
+    "AI-Brain/Dashboards/main-dashboard.md",
+    "scripts/README.md",
+    "graphify-out/GRAPH_REPORT.md",
     "_COMMUNITY_Community 278.md",
     "_COMMUNITY_Community 346.md",
+    "OpenRouter-API-Key.md",
     "_COMMUNITY_Community 1.md",
-    "graphify-out/GRAPH_REPORT.md",
     "Untitled 2.base",
-    "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
     "Recording 20260822013646.m4a",
     "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
     "TaskNotes/Tasks",
@@ -304,17 +346,9 @@
     "sessions",
     "202606031226.md",
     "Untitled Kanban.md",
-    "202606031225.md",
-    "AI-Brain/Templates/memory-note.md",
-    "AI-Brain/Templates/concept-note.md",
-    "AI-Brain/Dashboards/main-dashboard.md",
-    "AI-Brain/📋 Team Command Center.md",
-    "AI-Brain/📖 How We Work Together.md",
-    "AI-Brain/🔌 Plugin Guide.md",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/kanban-default.base",
     "Pharmacy_Project/backend/app/api/__pycache__/loyalty.cpython-314.pyc"
   ]
 }
