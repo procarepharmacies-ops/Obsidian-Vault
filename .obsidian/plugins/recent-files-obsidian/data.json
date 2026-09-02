@@ -5,6 +5,10 @@
       "path": "AI-Brain/🔐 API Credentials Hub.md"
     },
     {
+      "basename": "sql_bridge",
+      "path": "architecture/sql_bridge.md"
+    },
+    {
       "basename": "2026-06-03__Accessing Configured WhatsApp via Hermes",
       "path": "AI-Brain/Chats/2026-06-03__Accessing Configured WhatsApp via Hermes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "task_plan",
       "path": "AI-Brain/task_plan.md"
-    },
-    {
-      "basename": "calendar-default",
-      "path": "TaskNotes/Views/calendar-default.base"
     }
   ],
   "omittedPaths": [],
