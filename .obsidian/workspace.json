@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pharmacy_Project/brand_guidelines.md",
+                "file": "AI-Brain/🔐 API Credentials Hub.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "brand_guidelines"
+              "title": "🔐 API Credentials Hub"
             }
           }
         ],
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"skill_name\"]",
+                "query": "open router api",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -296,8 +296,8 @@
       "systemsculpt-ai:Open SystemSculpt Search": false,
       "systemsculpt-ai:Open SystemSculpt Janitor": false,
       "systemsculpt-ai:Open SystemSculpt History": false,
-      "systemsculpt-ai:Open SystemSculpt Chat": false,
       "systemsculpt-ai:Open Similar Notes Panel": false,
+      "systemsculpt-ai:Open SystemSculpt Chat": false,
       "tasknotes:Open mini calendar view": false,
       "tasknotes:Open calendar view": false,
       "tasknotes:Open tasks view": false,
@@ -312,19 +312,27 @@
   },
   "active": "fc024674441b501c",
   "lastOpenFiles": [
+    "AI-Brain/Chats/2026-06-03__Accessing Configured WhatsApp via Hermes.md",
+    "AI-Brain/🔐 API Credentials Hub.md",
+    "AI-Brain/Chats/2026-07-30__Hermes Agent ACP Installation.md",
+    "AI-Brain/Chats/2026-07-30__Fixing hermes-agent Windows install permission errors.md",
+    "_COMMUNITY_Community 1.md",
+    "2026-08-25.md",
+    "graphify-out/GRAPH_REPORT.md",
+    "_COMMUNITY_Community 0.md",
+    "2026-08-12.md",
+    "Pharmacy_Project/claude.md",
+    "Pharmacy_Project/brand_guidelines.md",
     "architecture/dashboard_ui.md",
     "OpenRouter-API-Key.md",
     "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md",
-    "2026-08-25.md",
     "TaskNotes/Views/kanban-default.base",
     "Pharmacy_Project/backend/venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md",
     "Pharmacy_Project/backend/venv/Lib/site-packages/uvicorn-0.47.0.dist-info/licenses/LICENSE.md",
     "AI-Brain/Dashboards/main-dashboard.md",
     "scripts/README.md",
-    "graphify-out/GRAPH_REPORT.md",
     "_COMMUNITY_Community 278.md",
     "_COMMUNITY_Community 346.md",
-    "_COMMUNITY_Community 1.md",
     "Untitled 2.base",
     "Recording 20260822013646.m4a",
     "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md",
@@ -335,18 +343,10 @@
     "AI-Brain/Chats/2026-08-12__228 commits behinfd what _.md",
     "AI-Brain/Chats/2026-08-12__work kanban task t_1e88cc95.md",
     "Untitled.canvas",
-    "2026-08-12.md",
     "_COMMUNITY_Community 247.md",
-    "sessions/20260811_183000_comprehensive_organization.md",
-    "sessions/20260811_152800_desktop_organize.md",
-    "AI-Brain/gemini.md",
-    "AI-Brain/claude.md",
-    "Pharmacy_Project/frontend/node_modules/@reduxjs/toolkit/skills/model-redux-state/build-slices-and-selectors/SKILL.md",
     "procare-react-app/src/assets/vite.svg",
     "procare-react-app/src/assets/hero.png",
     "sessions",
-    "202606031226.md",
-    "Untitled Kanban.md",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/relationships.base",

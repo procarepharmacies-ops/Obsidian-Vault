@@ -308,23 +308,40 @@ from the directory `C:\Users\Ahmed\AppData\Local\hermes\hermes-agent`.
 
 ### USER
 
-2026-07-30 14:44:02 [INFO] acp_adapter.entry: Loaded env from C:\Users\Ahmed\AppData\Local\hermes\.env
-2026-07-30 14:44:02 [INFO] acp_adapter.entry: Starting hermes-agent ACP adapter
-
-2026-07-30 14:44:09 [INFO] acp_adapter.server: ACP client connected
-2026-07-30 14:44:09 [ERROR] root: Error parsing JSON-RPC message
-Traceback (most recent call last):
-  File "C:\Users\Ahmed\AppData\Local\hermes\hermes-agent\.venv\Lib\site-packages\acp\connection.py", line 155, in _receive_loop
-    message: dict[str, Any] = json.loads(line)
-                              ^^^^^^^^^^^^^^^^
-  File "C:\Users\Ahmed\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Ahmed\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Ahmed\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
+2026-07-30 14:44:02 [INFO] acp_adapter.entry: Loaded env from C:\Users\Ahmed\AppData\Local\hermes\.env
+
+2026-07-30 14:44:02 [INFO] acp_adapter.entry: Starting hermes-agent ACP adapter
+
+
+
+2026-07-30 14:44:09 [INFO] acp_adapter.server: ACP client connected
+
+2026-07-30 14:44:09 [ERROR] root: Error parsing JSON-RPC message
+
+Traceback (most recent call last):
+
+  File "C:\Users\Ahmed\AppData\Local\hermes\hermes-agent\.venv\Lib\site-packages\acp\connection.py", line 155, in _receive_loop
+
+    message: dict[str, Any] = json.loads(line)
+
+                              ^^^^^^^^^^^^^^^^
+
+  File "C:\Users\Ahmed\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+
+    return _default_decoder.decode(s)
+
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\Ahmed\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\Ahmed\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+
 json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 2)
 
 ### ASSISTANT

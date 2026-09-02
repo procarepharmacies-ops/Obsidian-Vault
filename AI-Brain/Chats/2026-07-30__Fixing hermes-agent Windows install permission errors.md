@@ -11,14 +11,22 @@ messages: 22
 
 ### USER
 
-fix this error [!] Could not enumerate gateway scheduled tasks: ERROR: Access is denied.
-
-[X] Installation failed: ERROR: The process with PID 17864 (child process of PID 17260) could not be terminated.
-
--> If the error is unclear, try downloading and running the script directly:
-  Invoke-WebRequest -Uri '@url:`https://hermes-agent.nousresearch.com/install.ps1`' -OutFile install.ps1
-  .\install.ps1
-
+fix this error [!] Could not enumerate gateway scheduled tasks: ERROR: Access is denied.
+
+
+
+[X] Installation failed: ERROR: The process with PID 17864 (child process of PID 17260) could not be terminated.
+
+
+
+-> If the error is unclear, try downloading and running the script directly:
+
+  Invoke-WebRequest -Uri '@url:`https://hermes-agent.nousresearch.com/install.ps1`' -OutFile install.ps1
+
+  .\install.ps1
+
+
+
 PS C:\Users\Ahmed\AppData\Local\hermes\hermes-agent>
 
 --- Attached Context ---

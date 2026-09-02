@@ -32,7 +32,7 @@ author: Antigravity
 ### Primary LLM Provider (Hermes → OpenRouter)
 ```
 # File: C:\Users\Ahmed\AppData\Local\hermes\.env
-OPENROUTER_API_KEY=***
+OPENROUTER_API_KEY=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
 ```
 
 ### Google / Gemini
