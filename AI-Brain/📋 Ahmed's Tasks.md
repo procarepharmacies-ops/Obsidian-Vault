@@ -64,7 +64,7 @@ dateModified: 2026-05-10T07:25:02.083+03:00
 
 ## 🟢 Someday — Low Priority
 
-- [ ] #task Set up Obsidian Sync (optional — for phone access)
+- [[Set up Obsidian Sync (optional — for phone access)]]
 - [ ] #task Export Perplexity conversations
 - [ ] #task Export Microsoft Copilot conversations
 

@@ -1,6 +1,6 @@
-# 🛡️ Project Constitution — Obsidian AI Brain & Antigravity Skills
+# 🛡️ Project Governance — Obsidian AI Brain & Antigravity Skills
 
-> This file is the **LAW**. It defines the deterministic rules, architectural invariants, and data schemas for this environment.
+> This file defines project-wide engineering and behavior rules. Memory schemas, folder paths, and import/review rules are maintained only in [[gemini.md]].
 
 ---
 
@@ -10,7 +10,7 @@
    - All logic must be documented in Markdown SOPs before code is written.
    - SOPs are the "Source of Truth" for how tools operate.
 
-13. **Layer 2: Navigation (The Maestro)**
+2. **Layer 2: Navigation (The Maestro)**
    - Antigravity acts as the **Maestro**, coordinating all agents, models, and tools.
    - The LLM (Antigravity) routes data between SOPs, external "Pro" models, and local Tools.
    - Reasoning must be sequential, transparent, and self-healing.
@@ -24,7 +24,7 @@
 
 ## 🗂️ DATA SCHEMAS
 
-*See [[gemini.md]] for full data schemas and skill registry.*
+Memory schemas and the skill registry are maintained in [[gemini.md]].
 
 ---
 

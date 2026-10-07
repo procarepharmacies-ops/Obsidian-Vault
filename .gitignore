@@ -1,11 +1,37 @@
+# Obsidian workspace & UI transient state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
 .obsidian/appearance.json
 .obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/remotely-save/data.json
 .trash/
 *.DS_Store
 .tmp/
 
-# SystemSculpt rolling/transient diagnostics (constantly rewritten — not version-controlled)
-.systemsculpt/diagnostics/*-latest.*
+# Secrets, API Keys & Credentials
+.env
+*.env
+*token*.json
+credentials.json
+client_secret*.json
+AI-Brain/*gdrive*.py
+MTU0NzgwNzQzMzEzNTQ5MzEyMA*
+
+# Heavy binaries, installers & archives (>50MB or compiled)
+*.exe
+*.msi
+*.zip
+*.tar.gz
+*.7z
+*.winmd
+
+# SystemSculpt transient logs, backups & diagnostics
+.systemsculpt/diagnostics/
+.systemsculpt/cache/
+.systemsculpt/settings-backups/
+.systemsculpt/settings/backups/
+.claudian/
+.omh/
+__pycache__/
+*.pyc

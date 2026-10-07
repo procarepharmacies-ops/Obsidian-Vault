@@ -1,36 +1,152 @@
 {
   "recentFiles": [
     {
+      "basename": "GRAPH_REPORT",
+      "path": "graphify-out/GRAPH_REPORT.md"
+    },
+    {
+      "basename": "2026-08-06__Hermes Dashboard Installation",
+      "path": "AI-Brain/Chats/2026-08-06__Hermes Dashboard Installation.md"
+    },
+    {
+      "basename": "🤖 Gemini's Tasks",
+      "path": "AI-Brain/🤖 Gemini's Tasks.md"
+    },
+    {
+      "basename": "🤖 Antigravity MCP Guide",
+      "path": "AI-Brain/🤖 Antigravity MCP Guide.md"
+    },
+    {
+      "basename": "🔌 Plugin Guide",
+      "path": "AI-Brain/🔌 Plugin Guide.md"
+    },
+    {
       "basename": "🔐 API Credentials Hub",
       "path": "AI-Brain/🔐 API Credentials Hub.md"
     },
     {
-      "basename": "sql_bridge",
-      "path": "architecture/sql_bridge.md"
+      "basename": "📖 How We Work Together",
+      "path": "AI-Brain/📖 How We Work Together.md"
+    },
+    {
+      "basename": "📋 Team Command Center",
+      "path": "AI-Brain/📋 Team Command Center.md"
+    },
+    {
+      "basename": "📋 Ahmed's Tasks",
+      "path": "AI-Brain/📋 Ahmed's Tasks.md"
+    },
+    {
+      "basename": "main-dashboard",
+      "path": "AI-Brain/Dashboards/main-dashboard.md"
+    },
+    {
+      "basename": "Official GitHub MCP Server  Awesome MCP Servers",
+      "path": "Clippings/Official GitHub MCP Server  Awesome MCP Servers.md"
+    },
+    {
+      "basename": "2026-08-12__work kanban task t_1e88cc95",
+      "path": "AI-Brain/Chats/2026-08-12__work kanban task t_1e88cc95.md"
+    },
+    {
+      "basename": "2026-08-12__228 commits behinfd what _",
+      "path": "AI-Brain/Chats/2026-08-12__228 commits behinfd what _.md"
+    },
+    {
+      "basename": "2026-08-12__4 Hermes agent local machine control prompts",
+      "path": "AI-Brain/Chats/2026-08-12__4 Hermes agent local machine control prompts.md"
+    },
+    {
+      "basename": "2026-08-12__(free",
+      "path": "AI-Brain/Chats/2026-08-12__(free.md"
     },
     {
       "basename": "2026-06-03__Accessing Configured WhatsApp via Hermes",
       "path": "AI-Brain/Chats/2026-06-03__Accessing Configured WhatsApp via Hermes.md"
     },
     {
+      "basename": "DEVELOPING",
+      "path": "AI-Brain/DEVELOPING.md"
+    },
+    {
+      "basename": "README",
+      "path": "procare-react-app/node_modules/recharts/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "procare-react-app/node_modules/caniuse-lite/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "procare-react-app/node_modules/lucide-react/README.md"
+    },
+    {
       "basename": "2026-07-30__Hermes Agent ACP Installation",
       "path": "AI-Brain/Chats/2026-07-30__Hermes Agent ACP Installation.md"
+    },
+    {
+      "basename": "endpoint-lifecycle",
+      "path": "procare-react-app/node_modules/@reduxjs/toolkit/skills/manage-server-data/adopt-rtk-query/references/endpoint-lifecycle.md"
+    },
+    {
+      "basename": "pre-rendering",
+      "path": "procare-react-app/node_modules/react-router/docs/how-to/pre-rendering.md"
+    },
+    {
+      "basename": "listener-workflows",
+      "path": "procare-react-app/node_modules/@reduxjs/toolkit/skills/orchestrate-side-effects/handle-side-effects/references/listener-workflows.md"
+    },
+    {
+      "basename": "store-lifetime",
+      "path": "procare-react-app/node_modules/@reduxjs/toolkit/skills/build-modern-redux-apps/modern-redux/references/store-lifetime.md"
+    },
+    {
+      "basename": "search-params",
+      "path": "procare-react-app/node_modules/react-router/docs/how-to/search-params.md"
+    },
+    {
+      "basename": "special-files",
+      "path": "procare-react-app/node_modules/react-router/docs/explanation/special-files.md"
+    },
+    {
+      "basename": "testing",
+      "path": "procare-react-app/node_modules/react-router/docs/start/data/testing.md"
+    },
+    {
+      "basename": "testing",
+      "path": "procare-react-app/node_modules/react-router/docs/start/framework/testing.md"
+    },
+    {
+      "basename": "CHANGELOG",
+      "path": "procare-react-app/node_modules/recharts/CHANGELOG.md"
+    },
+    {
+      "basename": "CONTRIBUTING",
+      "path": "procare-react-app/node_modules/recharts/CONTRIBUTING.md"
     },
     {
       "basename": "2026-07-30__Fixing hermes-agent Windows install permission errors",
       "path": "AI-Brain/Chats/2026-07-30__Fixing hermes-agent Windows install permission errors.md"
     },
     {
-      "basename": "_COMMUNITY_Community 1",
-      "path": "_COMMUNITY_Community 1.md"
-    },
-    {
       "basename": "2026-08-25",
       "path": "2026-08-25.md"
     },
     {
-      "basename": "GRAPH_REPORT",
-      "path": "graphify-out/GRAPH_REPORT.md"
+      "basename": "dashboard_ui",
+      "path": "architecture/dashboard_ui.md"
+    },
+    {
+      "basename": "brand_guidelines",
+      "path": "Pharmacy_Project/brand_guidelines.md"
+    },
+    {
+      "basename": "sql_bridge",
+      "path": "architecture/sql_bridge.md"
+    },
+    {
+      "basename": "_COMMUNITY_Community 1",
+      "path": "_COMMUNITY_Community 1.md"
     },
     {
       "basename": "_COMMUNITY_Community 0",
@@ -43,14 +159,6 @@
     {
       "basename": "claude",
       "path": "Pharmacy_Project/claude.md"
-    },
-    {
-      "basename": "brand_guidelines",
-      "path": "Pharmacy_Project/brand_guidelines.md"
-    },
-    {
-      "basename": "dashboard_ui",
-      "path": "architecture/dashboard_ui.md"
     },
     {
       "basename": "OpenRouter-API-Key",
@@ -73,10 +181,6 @@
       "path": "Pharmacy_Project/backend/venv/Lib/site-packages/uvicorn-0.47.0.dist-info/licenses/LICENSE.md"
     },
     {
-      "basename": "main-dashboard",
-      "path": "AI-Brain/Dashboards/main-dashboard.md"
-    },
-    {
       "basename": "README",
       "path": "scripts/README.md"
     },
@@ -91,114 +195,6 @@
     {
       "basename": "Untitled 2",
       "path": "Untitled 2.base"
-    },
-    {
-      "basename": "Recording 20260822013646",
-      "path": "Recording 20260822013646.m4a"
-    },
-    {
-      "basename": "2026-08-12__work kanban task t_7117a356",
-      "path": "AI-Brain/Chats/2026-08-12__work kanban task t_7117a356.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.base"
-    },
-    {
-      "basename": "2026-08-12__(free",
-      "path": "AI-Brain/Chats/2026-08-12__(free.md"
-    },
-    {
-      "basename": "2026-08-12__4 Hermes agent local machine control prompts",
-      "path": "AI-Brain/Chats/2026-08-12__4 Hermes agent local machine control prompts.md"
-    },
-    {
-      "basename": "2026-08-12__228 commits behinfd what _",
-      "path": "AI-Brain/Chats/2026-08-12__228 commits behinfd what _.md"
-    },
-    {
-      "basename": "2026-08-12__work kanban task t_1e88cc95",
-      "path": "AI-Brain/Chats/2026-08-12__work kanban task t_1e88cc95.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.canvas"
-    },
-    {
-      "basename": "_COMMUNITY_Community 247",
-      "path": "_COMMUNITY_Community 247.md"
-    },
-    {
-      "basename": "20260811_183000_comprehensive_organization",
-      "path": "sessions/20260811_183000_comprehensive_organization.md"
-    },
-    {
-      "basename": "20260811_152800_desktop_organize",
-      "path": "sessions/20260811_152800_desktop_organize.md"
-    },
-    {
-      "basename": "gemini",
-      "path": "AI-Brain/gemini.md"
-    },
-    {
-      "basename": "claude",
-      "path": "AI-Brain/claude.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "Pharmacy_Project/frontend/node_modules/@reduxjs/toolkit/skills/model-redux-state/build-slices-and-selectors/SKILL.md"
-    },
-    {
-      "basename": "vite",
-      "path": "procare-react-app/src/assets/vite.svg"
-    },
-    {
-      "basename": "hero",
-      "path": "procare-react-app/src/assets/hero.png"
-    },
-    {
-      "basename": "202606031226",
-      "path": "202606031226.md"
-    },
-    {
-      "basename": "Untitled Kanban",
-      "path": "Untitled Kanban.md"
-    },
-    {
-      "basename": "202606031225",
-      "path": "202606031225.md"
-    },
-    {
-      "basename": "memory-note",
-      "path": "AI-Brain/Templates/memory-note.md"
-    },
-    {
-      "basename": "concept-note",
-      "path": "AI-Brain/Templates/concept-note.md"
-    },
-    {
-      "basename": "📋 Team Command Center",
-      "path": "AI-Brain/📋 Team Command Center.md"
-    },
-    {
-      "basename": "📖 How We Work Together",
-      "path": "AI-Brain/📖 How We Work Together.md"
-    },
-    {
-      "basename": "🔌 Plugin Guide",
-      "path": "AI-Brain/🔌 Plugin Guide.md"
-    },
-    {
-      "basename": "🤖 Antigravity MCP Guide",
-      "path": "AI-Brain/🤖 Antigravity MCP Guide.md"
-    },
-    {
-      "basename": "findings",
-      "path": "AI-Brain/findings.md"
-    },
-    {
-      "basename": "task_plan",
-      "path": "AI-Brain/task_plan.md"
     }
   ],
   "omittedPaths": [],

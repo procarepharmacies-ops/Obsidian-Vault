@@ -1,0 +1,1 @@
+github-mcp-server --toolsets repos,issues,pull_requests,actions,code_security

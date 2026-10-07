@@ -1,79 +1,40 @@
 ---
 type: dashboard
 tags: [command-center, team, active]
-updated: 2026-05-09
+updated: 2026-10-01
 ---
 
-# 🚀 Team Command Center
+# Team Command Center
 
-> **We operate as a team.** Ahmed = Executor. Gemini = Architect & Researcher.
-> This is our shared mission control. Check this file every session.
+Task boards live directly in `AI-Brain/`; task queries below scan those notes.
 
----
-
-## 🔴 ACTIVE RIGHT NOW
-
+## Ahmed's open tasks
 ```dataview
-TABLE status, owner, due
-FROM "AI-Brain/Tasks"
-WHERE status = "🔴 In Progress"
-SORT due ASC
+TASK
+FROM "AI-Brain"
+WHERE !completed AND contains(text, "#task") AND page.owner = "Ahmed"
 ```
 
----
-
-## 👤 Ahmed's To-Do (Your Actions)
-
-> These are tasks **only you can do** — they require your hands, accounts, or decisions.
-
+## AI queue
 ```dataview
-TABLE priority, due, project
-FROM "AI-Brain/Tasks"
-WHERE owner = "Ahmed" AND status != "✅ Done"
-SORT priority ASC
+TASK
+FROM "AI-Brain"
+WHERE !completed AND contains(text, "#task") AND page.owner = "Gemini"
 ```
 
----
-
-## 🤖 Gemini's To-Do (My Actions)
-
-> Tasks I will execute autonomously — writing code, building files, researching.
-
+## Recently completed tasks
 ```dataview
-TABLE priority, due, project
-FROM "AI-Brain/Tasks"
-WHERE owner = "Gemini" AND status != "✅ Done"
-SORT priority ASC
-```
-
----
-
-## ✅ Recently Completed
-
-```dataview
-TABLE owner, completed, project
-FROM "AI-Brain/Tasks"
-WHERE status = "✅ Done"
-SORT completed DESC
+TASK
+FROM "AI-Brain"
+WHERE completed AND contains(text, "#task")
+SORT completion DESC
 LIMIT 10
 ```
 
----
-
-## 📊 Project Health
-
-```dataview
-TABLE length(rows) AS "Total Tasks", length(filter(rows, (r) => r.status = "✅ Done")) AS "Done"
-FROM "AI-Brain/Tasks"
-GROUP BY project
-```
-
----
-
-## 🔗 Quick Links
-
-- [[📋 Ahmed's Tasks]] — Your personal to-do list
-- [[🤖 Gemini's Tasks]] — What I'm working on
-- [[📖 How We Work Together]] — Team operating manual
-- [[task_plan.md]] — Master project plan
-- [[progress.md]] — Session progress log
+## Quick links
+- [[📋 Ahmed's Tasks]]
+- [[🤖 Gemini's Tasks]]
+- [[📖 How We Work Together]]
+- [[task_plan]]
+- [[progress]]
+- [[Dashboards/main-dashboard]]

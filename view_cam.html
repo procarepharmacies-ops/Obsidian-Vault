@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>camera screenshot</title>
+<style>html,body{margin:0;padding:0;background:#000}img{display:block;max-width:100%;max-height:100vh}</style>
+</head><body>
+<img src="file:///c:/Users/Ahmed/AppData/Roaming/Hermes/composer-images/image_9478aa.png" id="i">
+<script>
+const i=document.getElementById('i');
+if(i.complete){document.title='READY '+i.naturalWidth+'x'+i.naturalHeight;}
+else{i.onload=()=>{document.title='READY '+i.naturalWidth+'x'+i.naturalHeight;};i.onerror=()=>{document.body.innerHTML='<h1 style="color:red">FAIL</h1>';};}
+</script></body></html>

@@ -32,25 +32,30 @@ tags: [skill, obsidian, second-brain, memory]
 - Update task checkboxes in Ahmed's or Gemini's task files
 
 **For new notes:**
-- Always use YAML frontmatter (source, date, tags, type, topic)
-- Use WikiLinks `[[concept]]` for all related concepts
-- Extract at least 3 key insights
-- Place in correct folder per `gemini.md` schema
+- Keep raw exports unchanged in `AI-Brain/_Inbox/{Source}/` until their imports are reviewed.
+- Treat imported conversations as source records with `status: needs-review`; do not present them as durable memory.
+- Never invent insights, summaries, confidence, or concept links to satisfy a template.
+- Create concise curated notes only for useful facts, preferences, decisions, or lessons that have been checked against a source record.
+- Link curated notes to their evidence with `[[WikiLinks]]`; mark uncertain or time-sensitive information and add a review date when useful.
+- Follow the canonical schema and folder paths in `AI-Brain/gemini.md`.
 
 **File paths:**
 - Tasks: `AI-Brain/📋 Ahmed's Tasks.md` and `AI-Brain/🤖 Gemini's Tasks.md`
 - Progress: `AI-Brain/progress.md`
 - Constitution: `AI-Brain/gemini.md`
-- Memories: `AI-Brain/Memories/{source}/`
+- Raw exports: `AI-Brain/_Inbox/{source}/`
+- Imported source records: `AI-Brain/Memories/{source}/`
+- Curated memory notes: `AI-Brain/Memories/Curated/` (tagged `ai-memory`, status `active`)
 
 ---
 
 ## 📥 Input
 ```json
 {
-  "action": "create_note | update_task | log_progress | read_status",
+  "action": "import_source | curate_memory | update_task | log_progress | read_status",
   "content": "string",
-  "source": "ChatGPT | Claude | Perplexity | Copilot | Gemini | Manual"
+  "source": "ChatGPT | Claude | Perplexity | Copilot | Gemini | Manual",
+  "status": "needs-review | active | superseded"
 }
 ```
 

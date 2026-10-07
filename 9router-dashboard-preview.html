@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>9Router Dashboard — Ahmed's Pharmacy</title>
+<style>
+  :root { --bg: #0a0a0a; --fg: #e5e5e5; --accent: #3b82f6; --border: #1f2937; --card: #111827; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 24px; gap: 16px; }
+  .wrap { width: 100%; max-width: 1200px; }
+  .header { display: flex; align-items: center; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+  .header h1 { font-size: 18px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+  .dot { width: 10px; height: 10px; background: #22c55e; border-radius: 50%; box-shadow: 0 0 8px #22c55e; }
+  .iframe-wrap { height: 82vh; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--card); }
+  iframe { width: 100%; height: 100%; border: none; display: block; }
+  .footer { font-size: 12px; color: #6b7280; text-align: center; }
+  .link { color: var(--accent); text-decoration: none; }
+  .pill { display: inline-block; background: #1e293b; border: 1px solid var(--border); border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 12px; color: #94a3b8; }
+  .btn { display: inline-block; background: var(--accent); color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 500; }
+  .btn:hover { opacity: 0.9; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 12px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .card h3 { font-size: 13px; color: #9ca3af; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .card code { font-family: monospace; font-size: 14px; color: var(--fg); display: block; word-break: break-all; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <h1><span class="dot"></span> 9Router Dashboard — Ahmed's Pharmacy</h1>
+    <span class="pill">Server PID 32112 — Port 20128</span>
+  </div>
+
+  <div class="iframe-wrap">
+    <iframe src="http://127.0.0.1:20128/dashboard" title="9Router" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Local Access</h3>
+      <code>http://127.0.0.1:20128/dashboard</code>
+    </div>
+    <div class="card">
+      <h3>LAN Access</h3>
+      <code>http://192.168.1.3:20128/dashboard</code>
+    </div>
+    <div class="card">
+      <h3>API Endpoint (CLI →)</h3>
+      <code>http://127.0.0.1:20128/v1</code>
+    </div>
+  </div>
+
+  <div class="footer" style="margin-top: 12px;">
+    9Router v0.5.69 — OpenAI-compatible AI router — Point Claude Code / Codex / Cursor to
+    <a class="link" href="http://127.0.0.1:20128/v1" target="_blank">/v1</a>
+  </div>
+</div>
+</body>
+</html>

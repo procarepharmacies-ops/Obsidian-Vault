@@ -3,26 +3,37 @@ type: dashboard
 tags: [dashboard]
 ---
 
-# 📊 AI Brain Dashboard
+# AI Brain
 
-## 🧠 All Memories by Date
+## Review queue
 ```dataview
-TABLE source, topic, date
-FROM #ai-memory
+TABLE source, source_id, date, title
+FROM #ai-source-record
+WHERE status = "needs-review"
 SORT date DESC
 ```
 
-## 📦 Memories by Source
+## Curated memories
 ```dataview
-TABLE length(rows) AS "Count"
+TABLE memory_kind, confidence, reviewed, review_after, source_records
 FROM #ai-memory
+WHERE status = "active"
+SORT reviewed DESC
+```
+
+## Source records by platform
+```dataview
+TABLE length(rows) AS "Source records"
+FROM #ai-source-record
 GROUP BY source
+SORT source ASC
 ```
 
-## 🔥 Recent (Last 30 Days)
+## Recently reviewed memories
 ```dataview
-LIST title
+LIST
 FROM #ai-memory
-WHERE date >= date(today) - dur(30 days)
-SORT date DESC
+WHERE reviewed >= date(today) - dur(30 days)
+SORT reviewed DESC
+LIMIT 20
 ```

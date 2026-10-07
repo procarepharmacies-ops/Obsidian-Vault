@@ -29,10 +29,7 @@ Build a graph-based "Second Brain" in Obsidian that aggregates, structures, and 
 
 ## 🛠️ Phase 2: Build the Processing Pipeline
 
-- [x] Create Python script `tools/parse_chatgpt.py`
-- [x] Create Python script `tools/parse_claude.py`
-- [x] Create Python script `tools/parse_perplexity.py`
-- [x] Create Python script `tools/parse_generic.py`
+- [x] Create unified multi-source importer `tools/parse_memories.py`
 - [x] Create Obsidian templates in `Templates/`
 - [ ] Test pipeline with 5 sample conversations
 
@@ -44,6 +41,7 @@ Build a graph-based "Second Brain" in Obsidian that aggregates, structures, and 
 - [ ] Process Copilot/Gemini exports
 - [ ] Create 10+ Concept notes linking memories together
 - [ ] Create Topic hub notes
+- [ ] Review imported source records and create curated memories only when useful
 
 ## 📊 Phase 4: Build Dashboards & Graph
 

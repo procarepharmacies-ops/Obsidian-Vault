@@ -99,10 +99,13 @@ AI-Brain/
 ├── task_plan.md                 ← Master project phases
 ├── progress.md                  ← Session log
 ├── findings.md                  ← Research discoveries
-├── gemini.md                    ← Project Constitution (LAW)
+├── gemini.md                    ← Memory schemas and workflow specification
+├── _Inbox/                      ← Untouched AI exports for review
+├── Memories/                    ← Source records and curated memories
 ├── Templates/                   ← Note templates
 ├── Dashboards/                  ← Dataview views
-└── tools/                       ← Python automation scripts
+├── tools/                       ← Python automation scripts
+└── memory-workflow.md           ← Import, review, and curation steps
 ```
 
 ---

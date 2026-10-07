@@ -2,6 +2,23 @@
 
 > Running log of what was done, errors encountered, and results.
 
+## 2026-10-01 — Memory System Review and Alignment
+
+**Status:** 🟡 Implementation updated; sample import still pending
+
+**Done:**
+- Defined raw exports, imported source records, and curated memories as separate layers; clarified `gemini.md` as the canonical memory schema and `claude.md` as project governance.
+- Added the documented inbox, per-platform memory, curated-memory, concept, and topic folders.
+- Reworked `tools/parse_memories.py` to preserve conversation transcripts as `needs-review` source records, use stable IDs in filenames, quote YAML strings, sort ChatGPT messages by timestamp, and support `--dry-run` while refusing collisions unless `--overwrite` is explicit.
+- Replaced automatic “insight” extraction with a human review workflow; added source-record and curated-memory templates and updated the dashboard and curator instructions.
+- Corrected command-center task queries to scan the actual task-board locations.
+
+**Pending:**
+- Run a sample import for each supported export shape and inspect the resulting notes before importing real exports.
+- Review source records and create curated memories only when they contain useful, verified information.
+
+**Verification:** No sample exports or tests were run during this update.
+
 ## 2026-08-14 — Session 7: Vault Integration + INVR Project + Credential Hub + Multi-Location Setup
 
 **Status:** 🟢 Done

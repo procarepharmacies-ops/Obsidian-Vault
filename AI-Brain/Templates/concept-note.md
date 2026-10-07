@@ -16,7 +16,7 @@ created: {{date:YYYY-MM-DD}}
 ```dataview
 LIST
 FROM #ai-memory
-WHERE contains(file.content, this.file.name)
+WHERE contains(file.outlinks, this.file.link)
 SORT date DESC
 ```
 

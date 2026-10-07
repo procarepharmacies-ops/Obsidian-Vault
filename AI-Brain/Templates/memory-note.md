@@ -1,25 +1,27 @@
 ---
-source: {{source}}
-date: {{date:YYYY-MM-DD}}
-tags: [ai-memory, source-{{source:lowercase}}]
-type: ai-conversation
-topic: "{{topic}}"
+type: memory
+status: draft
+created: {{date:YYYY-MM-DD}}
+reviewed: {{date:YYYY-MM-DD}}
+review_after:
+source_records: []
+tags:
+  - ai-memory
+memory_kind:
+confidence:
 ---
 
-# 🗣️ {{title}}
+# {{title}}
 
-## 💡 Key Insights
-- 
-- 
-- 
+## Memory
+Write one concise, useful claim in plain language. Keep interpretation separate from source evidence.
 
-## 🔗 Linked Concepts
-- [[]]
+## Evidence and context
+- Source record:
+- Supporting passage or context:
 
-## 📝 Raw Summary
-> 
+## Scope and freshness
+- Applies when:
+- Recheck or expiry condition:
 
-## 🏷️ Metadata
-- **Source:** {{source}}
-- **Date:** {{date:YYYY-MM-DD}}
-- **Original ID:** {{conversation_id}}
+## Related notes

@@ -37,7 +37,7 @@ Every task within this foundation follows a 5-phase lifecycle to ensure maximum 
 ## 🧠 The AI-Brain Hub
 
 The `AI-Brain/` directory is the "Second Brain" of this foundation. It manages:
-- **Constitutions**: `claude.md` (Project Law) and `gemini.md` (Data Schemas).
+- **Project governance**: `AI-Brain/claude.md`; canonical memory schemas and workflow: `AI-Brain/gemini.md`.
 - **Memories**: Aggregated AI conversations from ChatGPT, Claude, and Gemini.
 - **Tasks**: Dynamic task management via `📋 Ahmed's Tasks.md` and `🤖 Gemini's Tasks.md`.
 - **Knowledge**: Atomic concepts and topic hubs interlinked for graph-based discovery.
@@ -49,10 +49,13 @@ The `AI-Brain/` directory is the "Second Brain" of this foundation. It manages:
 ```text
 Obsidian-Vault/
 ├── 🧠 AI-Brain/            # Central Intelligence & Project Tracking
-│   ├── claude.md           # Project Constitution (The Law)
-│   ├── gemini.md           # Data Schemas & Skill Registry
+│   ├── claude.md           # Project governance
+│   ├── gemini.md           # Canonical memory schema and skill registry
 │   ├── task_plan.md        # Master Project Blueprint
-│   └── progress.md         # Immutable Session Logs
+│   ├── progress.md         # Session log
+│   ├── _Inbox/             # Untouched exports awaiting import
+│   ├── Memories/           # Source records and reviewed memories
+│   └── memory-workflow.md  # Import, review, and curation steps
 ├── ⚙️ scripts/              # Terminal Automation & Setup Engines
 ├── ⚡ skills/               # Behavioral AI instructions & Extension logic
 ├── 🏛️ architecture/         # Layer 1: Standard Operating Procedures (SOPs)
@@ -67,8 +70,8 @@ Obsidian-Vault/
 To spin up a new project from this base:
 
 1. **Initialize Phase 0**: Run `scripts/01-install-plugins.ps1` to ensure the Obsidian environment is ready.
-2. **Set the Law**: Update `AI-Brain/claude.md` with the specific project invariants.
-3. **Define the Schema**: Add your Input/Output payloads to `AI-Brain/gemini.md`.
+2. **Set project guidance**: Update `AI-Brain/claude.md` with project-wide engineering rules.
+3. **Define memory and data schemas**: Add them to `AI-Brain/gemini.md`.
 4. **Trigger the Loop**: Follow the B.L.A.S.T. protocol for each milestone.
 
 ---
