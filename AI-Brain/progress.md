@@ -150,6 +150,36 @@
 
 ---
 
+## 2026-10-12 — Session 8: Memory Landscape Reconstruction & Obsidian Import
+
+**Status:** 🟢 Done
+
+**Done:**
+- ✅ **Scanned all local memory sources** across Hermes, OpenClaw, Verdent, and the Obsidian vault
+- ✅ **Confirmed GitHub sync** — `git ls-remote origin` succeeds; remote `procarepharmacies-ops/Obsidian-Vault` is operational (branches: `main`, `clone-openhuman-repo`, `claude/gracious-archimedes-7drr7`, `claude/keen-sagan-C6vUi`)
+- ✅ **Created 4 curated memory notes** in `AI-Brain/Memories/Curated/`:
+  - `hermes-memory-landscape.md` — Full memory scan and canonical resolution
+  - `soul-principles.md` — OpenClaw personality directives from SOUL.md
+  - `agent-memory-system.md` — Verdent Hermes memory structure documentation
+  - `hermes-fleet-architecture.md` — Four-location fleet deployment plan
+- ✅ **Created 4 source records** in `AI-Brain/Memories/{Hermes,Agents,Verdent}/` backing each curated note
+- ✅ **Created memory index** at `AI-Brain/Memories/_index.md`
+- ✅ **Created `git_sync.py`** — deterministic headless Git sync tool referenced in the obsidian-git SOP
+- ✅ **Created Hermes skill** `obsidian-hermes-memory-sync` in `AppData\Local\hermes\skills/`
+
+**Key Findings:**
+- Hermes `memories/` directory at `AppData\Local\hermes\memories/` is **empty** — no runtime memory to migrate
+- OpenClaw workspace has active SOUL.md, AGENTS.md, and daily dream logs (2026-08-03 → 2026-09-14, 3 phases)
+- Verdent workspace has MEMORY.md documenting the Hermes memory system structure
+- `state.db` SQLite introspection remains **blocked** (no user consent) — relied on filesystem sources only
+- No credentials or secrets preserved — `.gitignore` already excludes `.env`, tokens, and binaries
+
+**Verification:**
+- `git ls-remote origin` → success (remote accessible)
+- `git log --oneline -5` → last commit 2026-10-08 (vault backup)
+
+---
+
 ## Template for Future Entries
 
 ```
