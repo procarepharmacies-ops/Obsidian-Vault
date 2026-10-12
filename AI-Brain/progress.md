@@ -180,6 +180,24 @@
 
 ---
 
+## 2026-10-12 — Session 9: Hermes SOUL.md Discovered & Imported
+
+**Status:** 🟢 Done
+
+**Done:**
+- ✅ **Found Hermes SOUL.md** at `C:\Users\Ahmed\AppData\Local\hermes\SOUL.md` — the Hermes Agent's own system prompt (667 chars), not previously imported
+- ✅ **Created source record**: `AI-Brain/Memories/Hermes/hermes-soul-source-record.md`
+- ✅ **Updated curated note** `soul-principles.md` — merged Hermes communication directives with OpenClaw personality principles
+- ✅ **Created source record**: `AI-Brain/Memories/Agents/openclaw-dream-history-source-record.md` — consolidates 111 dream files across 3 phases × 34 days
+- ✅ **Created curated note** `dream-consolidation-no-yield.md` — documents the dream system yielded 0 durable memories
+- ✅ **Updated** `Memories/_index.md` with full source record table
+
+**Key Finding:** The Hermes SOUL.md (`AppData/Local/hermes/SOUL.md`) was the "it" — it defines the agent's operative communication directives: be direct, no filler, plain claims, depth is earned.
+
+**Verification:** All new files placed in appropriate `Memories/` subdirectories per the `gemini.md` memory model.
+
+---
+
 ## Template for Future Entries
 
 ```

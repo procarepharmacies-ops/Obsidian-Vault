@@ -11,15 +11,16 @@ tags:
 ## Curated Memory Notes
 
 ### System & Architecture
-- [[Curated/hermes-memory-landscape|Memory Landscape]] — Full local memory scan and canonical resolution
-- [[Curated/agent-memory-system|Agent Memory System]] — Hermes/Verdent memory directory structure
-- [[Curated/soul-principles|Personality Principles]] — SOUL.md core truths and boundaries
-- [[Curated/hermes-fleet-architecture|Fleet Architecture]] — Four-location Hermes deployment
+|- [[Curated/hermes-memory-landscape|Memory Landscape]] — Full local memory scan and canonical resolution
+|- [[Curated/soul-principles|Personality & Communication Principles]] — SOUL.md directives (OpenClaw + Hermes)
+|- [[Curated/agent-memory-system|Agent Memory System]] — Hermes/Verdent memory directory structure
+|- [[Curated/hermes-fleet-architecture|Fleet Architecture]] — Four-location Hermes deployment
+|- [[Curated/dream-consolidation-no-yield|Dream Consolidation No Yield]] — OpenClaw dream logs 2026-08-03→09-14
 
 ### By Source
-- **Hermes**: [[Hermes/memory-landscape-source-record|Memory landscape scan]]
-- **OpenClaw/Agents**: [[Agents/openclaw-soul-source-record|SOUL.md]], [[Agents/openclaw-agents-source-record|AGENTS.md]]
-- **Verdent**: [[Verdent/verdent-memory-system-source-record|MEMORY.md]]
+|- **Hermes**: [[Hermes/memory-landscape-source-record|Memory landscape scan]], [[Hermes/hermes-soul-source-record|SOUL.md]]
+|- **OpenClaw/Agents**: [[Agents/openclaw-soul-source-record|SOUL.md]], [[Agents/openclaw-agents-source-record|AGENTS.md]], [[Agents/openclaw-dream-history-source-record|Dream history]]
+|- **Verdent**: [[Verdent/verdent-memory-system-source-record|MEMORY.md]]
 
 ## Memory Workflow
 
