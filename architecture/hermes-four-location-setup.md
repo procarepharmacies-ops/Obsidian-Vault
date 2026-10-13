@@ -166,13 +166,13 @@ The `connections.json` already maps both branch servers:
 - `mashala` → `192.168.1.2,1433` → MASHALA branch
 
 ### Port Summary
-| Service | Port | Location |
-|---|---|---|
-| Hermes Gateway | 9119 | Hub machines (Loc 1, 3) |
-| ProCare OS Frontend | 3000 | Hub machines |
-| ProCare OS Backend | 8000 | Hub machines |
-| SQL Server | 1433 | Pharmacy servers |
-| Obsidian Sync | — | All (GitHub) |
+| Service             | Port | Location                |
+| ------------------- | ---- | ----------------------- |
+| Hermes Gateway      | 9119 | Hub machines (Loc 1, 3) |
+| ProCare OS Frontend | 3000 | Hub machines            |
+| ProCare OS Backend  | 8000 | Hub machines            |
+| SQL Server          | 1433 | Pharmacy servers        |
+| Obsidian Sync       | —    | All (GitHub)            |
 
 ---
 

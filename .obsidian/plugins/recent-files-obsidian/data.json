@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "dashboard_ui",
+      "path": "architecture/dashboard_ui.md"
+    },
+    {
+      "basename": "202610090420",
+      "path": "202610090420.md"
+    },
+    {
+      "basename": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks",
+      "path": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md"
+    },
+    {
       "basename": "GRAPH_REPORT",
       "path": "graphify-out/GRAPH_REPORT.md"
+    },
+    {
+      "basename": "hermes-four-location-setup",
+      "path": "architecture/hermes-four-location-setup.md"
+    },
+    {
+      "basename": "Discord for Developers",
+      "path": "Clippings/Discord for Developers.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Clippings/Overview.md"
     },
     {
       "basename": "2026-08-06__Hermes Dashboard Installation",
@@ -133,10 +157,6 @@
       "path": "2026-08-25.md"
     },
     {
-      "basename": "dashboard_ui",
-      "path": "architecture/dashboard_ui.md"
-    },
-    {
       "basename": "brand_guidelines",
       "path": "Pharmacy_Project/brand_guidelines.md"
     },
@@ -165,10 +185,6 @@
       "path": "OpenRouter-API-Key.md"
     },
     {
-      "basename": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks",
-      "path": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md"
-    },
-    {
       "basename": "kanban-default",
       "path": "TaskNotes/Views/kanban-default.base"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "README",
       "path": "scripts/README.md"
-    },
-    {
-      "basename": "_COMMUNITY_Community 278",
-      "path": "_COMMUNITY_Community 278.md"
-    },
-    {
-      "basename": "_COMMUNITY_Community 346",
-      "path": "_COMMUNITY_Community 346.md"
-    },
-    {
-      "basename": "Untitled 2",
-      "path": "Untitled 2.base"
     }
   ],
   "omittedPaths": [],
