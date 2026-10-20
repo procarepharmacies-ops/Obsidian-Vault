@@ -7,8 +7,8 @@ kanban-plugin: board
 ## Today
 
 - [ ] Day 2 — Inventory everything
-## PHASE A — Plan & workspace (Days 1–2)
 
+## PHASE A — Plan & workspace (Days 1–2)
 
 ## PHASE B — Security (Days 3–5)
 
