@@ -6,10 +6,9 @@ kanban-plugin: board
 
 ## Today
 
+- [ ] Day 2 — Inventory everything
 ## PHASE A — Plan & workspace (Days 1–2)
 
-- [ ] Day 1 — Put the plan where you can reach it
-- [ ] Day 2 — Inventory everything
 
 ## PHASE B — Security (Days 3–5)
 
@@ -64,6 +63,7 @@ kanban-plugin: board
 ## Done
 
 **Complete**
+- [x] Day 1 — Put the plan where you can reach it ✅ 2026-10-20
 
 
 %% kanban:settings
