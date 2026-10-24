@@ -1,0 +1,3 @@
+# Added by SystemSculpt: keeps plain-text credential files out of Git.
+auth.json
+models.json
