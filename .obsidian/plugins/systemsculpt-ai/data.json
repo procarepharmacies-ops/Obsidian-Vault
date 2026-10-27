@@ -13,8 +13,8 @@
   "accountOnboardingShown": true,
   "chatsDirectory": "SystemSculpt/Chats",
   "savedChatsDirectory": "SystemSculpt/Saved Chats",
-  "lastValidated": 1791866804638,
-  "lastAnnouncedPluginRelease": "",
+  "lastValidated": 1793132987256,
+  "lastAnnouncedPluginRelease": "6.18.7",
   "lastLoadedPluginVersion": "6.11.1",
   "recordingsDirectory": "SystemSculpt/Recordings",
   "pendingRecorderCaptures": [],
@@ -84,7 +84,7 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 1791866539772,
+  "lastAutomaticBackup": 1793132985485,
   "thinAgentClientId": "client_d0302e98285e45cbab663b3175a09476",
   "knownChatsDirectories": [
     "SystemSculpt/Chats"

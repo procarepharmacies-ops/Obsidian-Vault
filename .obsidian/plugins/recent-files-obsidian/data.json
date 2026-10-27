@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "202610272332",
+      "path": "202610272332.md"
+    },
+    {
+      "basename": "main-dashboard",
+      "path": "AI-Brain/Dashboards/main-dashboard.md"
+    },
+    {
+      "basename": "📋 Team Command Center",
+      "path": "AI-Brain/📋 Team Command Center.md"
+    },
+    {
+      "basename": "knowledge-graph-dashboard",
+      "path": "AI-Brain/Dashboards/knowledge-graph-dashboard.md"
+    },
+    {
       "basename": "dashboard_ui",
       "path": "architecture/dashboard_ui.md"
     },
@@ -53,16 +69,8 @@
       "path": "AI-Brain/📖 How We Work Together.md"
     },
     {
-      "basename": "📋 Team Command Center",
-      "path": "AI-Brain/📋 Team Command Center.md"
-    },
-    {
       "basename": "📋 Ahmed's Tasks",
       "path": "AI-Brain/📋 Ahmed's Tasks.md"
-    },
-    {
-      "basename": "main-dashboard",
-      "path": "AI-Brain/Dashboards/main-dashboard.md"
     },
     {
       "basename": "Official GitHub MCP Server  Awesome MCP Servers",
@@ -191,14 +199,6 @@
     {
       "basename": "LICENSE",
       "path": "Pharmacy_Project/backend/venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md"
-    },
-    {
-      "basename": "LICENSE",
-      "path": "Pharmacy_Project/backend/venv/Lib/site-packages/uvicorn-0.47.0.dist-info/licenses/LICENSE.md"
-    },
-    {
-      "basename": "README",
-      "path": "scripts/README.md"
     }
   ],
   "omittedPaths": [],
