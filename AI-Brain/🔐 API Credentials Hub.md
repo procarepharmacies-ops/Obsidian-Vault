@@ -73,6 +73,12 @@ FIRECRAWL_API_KEY=***
 FIRECRAWL_API_KEY=***  # (commented out)
 ```
 
+### Fish Audio (TTS / Voice)
+```
+# File: C:\Users\Ahmed\AppData\Local\hermes\.env
+FISH_AUDIO_API_KEY=***
+```
+
 ### FAL.ai (Image Generation)
 ```
 # File: C:\Users\Ahmed\AppData\Local\hermes\.env
