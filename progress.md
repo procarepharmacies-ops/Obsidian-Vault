@@ -20,3 +20,12 @@
   - Executed full live sync via `python tools/git_sync.py`.
   - Staged, committed, and pushed 3 commits to `origin/main`.
   - Confirmed `git status` reports working tree completely clean and up to date with `origin/main`.
+
+## [2026-10-27] Cadence Adjusted to 2 Hours (120 Minutes)
+- **Layer 1 (Architecture):** Updated `architecture/obsidian-git-setup.md` to Version 2.1.0 reflecting 2-hour cadence.
+- **Layer 2 & 4 (Obsidian Plugin):** Updated `.obsidian/plugins/obsidian-git/data.json`:
+  - `autoSaveInterval: 120` (minutes)
+  - `autoPushInterval: 120` (minutes)
+  - `autoPullInterval: 120` (minutes)
+- **Windows Task Scheduler:** Updated `scripts/register-sync-task.ps1` and re-registered `ObsidianVaultGitSync` with a 2-hour repetition interval. Verified next execution scheduled appropriately.
+- **Constitution:** Updated `gemini.md` schema defaults to 120 minutes.

@@ -16,12 +16,12 @@
     "pullIntervalMinutes": {
       "type": "integer",
       "minimum": 1,
-      "default": 10
+      "default": 120
     },
     "commitPushIntervalMinutes": {
       "type": "integer",
       "minimum": 1,
-      "default": 10
+      "default": 120
     },
     "pullOnStartup": {
       "type": "boolean",

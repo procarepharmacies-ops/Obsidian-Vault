@@ -1,8 +1,8 @@
 # 🛰️ SOP: Obsidian 2-Way Git Sync System (Hybrid Architecture)
 
-> **Version:** 2.0.0  
+> **Version:** 2.1.0  
 > **Status:** ACTIVE  
-> **Sync Cadence:** Every 30 minutes (Pull on Startup + Auto Commit/Push every 30m)  
+> **Sync Cadence:** Every 2 hours (Pull on Startup + Auto Commit/Push every 120m)  
 > **Architecture:** A.N.T. Hybrid (Obsidian-Git Plugin + Deterministic Python CLI `tools/git_sync.py`)
 
 ---
@@ -14,7 +14,7 @@ To guarantee deterministic 2-way sync across multiple devices (Windows desktop, 
 1. **In-App Layer (Obsidian Git Plugin):**
    - Active while Obsidian is open.
    - Automatically pulls incoming remote changes on vault startup (`autoPullOnBoot: true`).
-   - Automatically stages, commits, and pushes local changes every **30 minutes** (`autoSaveInterval: 30`, `autoPushInterval: 30`, `autoPullInterval: 30`).
+   - Automatically stages, commits, and pushes local changes every **2 hours** (`autoSaveInterval: 120`, `autoPushInterval: 120`, `autoPullInterval: 120`).
    - Automatically pulls remote changes before pushing (`pullBeforePush: true`).
    - Operates with `autoCommitOnlyStaged: false` so all modified and newly created notes are tracked automatically.
 
@@ -40,9 +40,9 @@ To guarantee deterministic 2-way sync across multiple devices (Windows desktop, 
 | Parameter | Value | Purpose |
 | :--- | :--- | :--- |
 | `autoPullOnBoot` | `true` | Fetch and merge remote changes before any local note edits |
-| `autoSaveInterval` | `30` | Commit local changes every 30 minutes |
-| `autoPushInterval` | `30` | Push commits to GitHub `origin/main` every 30 minutes |
-| `autoPullInterval` | `30` | Pull incoming commits from other devices every 30 minutes |
+| `autoSaveInterval` | `120` | Commit local changes every 2 hours (120 minutes) |
+| `autoPushInterval` | `120` | Push commits to GitHub `origin/main` every 2 hours |
+| `autoPullInterval` | `120` | Pull incoming commits from other devices every 2 hours |
 | `pullBeforePush` | `true` | Prevent push rejection by merging remote changes first |
 | `autoCommitOnlyStaged` | `false` | Stage all working tree changes automatically |
 | `syncMethod` | `"merge"` | Deterministic merge strategy for non-conflicting notes |
@@ -77,3 +77,4 @@ If changes to the same markdown note occur concurrently on two devices:
 | :--- | :--- | :--- | :--- |
 | 2026-05-10 | 1.0.0 | Initial Git SOP created | Antigravity Pilot |
 | 2026-10-08 | 2.0.0 | Upgraded to 2-Way Hybrid Model (30m cadence, Google Drive coexistence, headless sync tool) | Antigravity Pilot |
+| 2026-10-27 | 2.1.0 | Adjusted sync cadence to 2 hours (120 minutes) across in-app plugin and background scheduler | Antigravity Pilot |
