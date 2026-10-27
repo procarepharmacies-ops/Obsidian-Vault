@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "⚙️  NotebookLM + AntiGravity",
+      "path": "skills/⚙️  NotebookLM + AntiGravity.md"
+    },
+    {
+      "basename": "⚙️ Skill creator",
+      "path": "skills/⚙️ Skill creator.md"
+    },
+    {
       "basename": "Untitled 3",
       "path": "Untitled 3.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "sql_bridge",
       "path": "architecture/sql_bridge.md"
-    },
-    {
-      "basename": "2026-08-12",
-      "path": "2026-08-12.md"
-    },
-    {
-      "basename": "claude",
-      "path": "Pharmacy_Project/claude.md"
     }
   ],
   "omittedPaths": [],
