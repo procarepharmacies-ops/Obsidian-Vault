@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled 3",
+      "path": "Untitled 3.canvas"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Untitled 2.canvas"
+    },
+    {
+      "basename": "GRAPH_REPORT",
+      "path": "graphify-out/GRAPH_REPORT.md"
+    },
+    {
+      "basename": "_COMMUNITY_Community 1",
+      "path": "_COMMUNITY_Community 1.md"
+    },
+    {
+      "basename": "_COMMUNITY_Community 0",
+      "path": "_COMMUNITY_Community 0.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.canvas"
+    },
+    {
       "basename": "202610272332",
       "path": "202610272332.md"
     },
@@ -27,10 +51,6 @@
     {
       "basename": "set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks",
       "path": "TaskNotes/Tasks/set up procare os in elsanta branch then sync with cloudfglare tnnel to it from anywhhere like employee phone for operation and tasks.md"
-    },
-    {
-      "basename": "GRAPH_REPORT",
-      "path": "graphify-out/GRAPH_REPORT.md"
     },
     {
       "basename": "hermes-four-location-setup",
@@ -173,32 +193,12 @@
       "path": "architecture/sql_bridge.md"
     },
     {
-      "basename": "_COMMUNITY_Community 1",
-      "path": "_COMMUNITY_Community 1.md"
-    },
-    {
-      "basename": "_COMMUNITY_Community 0",
-      "path": "_COMMUNITY_Community 0.md"
-    },
-    {
       "basename": "2026-08-12",
       "path": "2026-08-12.md"
     },
     {
       "basename": "claude",
       "path": "Pharmacy_Project/claude.md"
-    },
-    {
-      "basename": "OpenRouter-API-Key",
-      "path": "OpenRouter-API-Key.md"
-    },
-    {
-      "basename": "kanban-default",
-      "path": "TaskNotes/Views/kanban-default.base"
-    },
-    {
-      "basename": "LICENSE",
-      "path": "Pharmacy_Project/backend/venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md"
     }
   ],
   "omittedPaths": [],
