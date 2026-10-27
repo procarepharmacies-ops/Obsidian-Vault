@@ -6,7 +6,7 @@
   "vaultInstanceId": "d0302e98-285e-45cb-ab66-3b3175a09476",
   "relativeLineNumbersEnabled": false,
   "schemaVersion": 14,
-  "embeddingsVectorFormatVersion": 0,
+  "embeddingsVectorFormatVersion": 8,
   "licenseKey": "346806e2-6a29-4d0e-b7cb-ea734e47502e",
   "licenseValid": true,
   "suppressLicenseUpgradePrompt": false,
@@ -73,7 +73,7 @@
   "studioRunRetentionMaxRuns": 100,
   "studioRunRetentionMaxArtifactsMb": 1024,
   "studioJsonEditorDefaultMode": "composer",
-  "embeddingsEnabled": false,
+  "embeddingsEnabled": true,
   "embeddingsExclusions": {
     "folders": [],
     "patterns": [],
