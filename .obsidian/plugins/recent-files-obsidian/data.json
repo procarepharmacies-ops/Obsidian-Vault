@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-07-30__(no title)",
+      "path": "AI-Brain/Chats/2026-07-30__(no title).md"
+    },
+    {
       "basename": "⚙️  NotebookLM + AntiGravity",
       "path": "skills/⚙️  NotebookLM + AntiGravity.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "brand_guidelines",
       "path": "Pharmacy_Project/brand_guidelines.md"
-    },
-    {
-      "basename": "sql_bridge",
-      "path": "architecture/sql_bridge.md"
     }
   ],
   "omittedPaths": [],

@@ -84,7 +84,7 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 1793132985485,
+  "lastAutomaticBackup": 1793219425244,
   "thinAgentClientId": "client_d0302e98285e45cbab663b3175a09476",
   "knownChatsDirectories": [
     "SystemSculpt/Chats"
