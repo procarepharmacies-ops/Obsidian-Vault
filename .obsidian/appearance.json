@@ -1,5 +1,8 @@
 {
   "theme": "moonstone",
   "baseFontSize": 20,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "glassmorphism-dashboard"
+  ]
 }

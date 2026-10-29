@@ -1,7 +1,4 @@
 {
   "showLineNumber": true,
-  "showUnsupportedFiles": true,
-  "enabledCssSnippets": [
-    "glassmorphism-dashboard"
-  ]
+  "showUnsupportedFiles": true
 }
