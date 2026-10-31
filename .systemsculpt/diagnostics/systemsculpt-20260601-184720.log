@@ -1,3 +1,0 @@
-SystemSculpt diagnostics session 20260518-034532 (plugin v5.6.0)
-{"timestamp":"2026-05-18T00:45:40.653Z","level":"error","message":"init:timeout","context":{"source":"InitializationTracer","metadata":{"phase":"settings.load","id":16,"elapsedMs":8003.5999999940395,"timeoutMs":8000}}}
-{"timestamp":"2026-05-18T00:45:50.280Z","level":"error","message":"init:late","context":{"source":"InitializationTracer","metadata":{"phase":"settings.load","id":16,"durMs":17630.59999999404,"logLevel":1,"debugMode":false}}}

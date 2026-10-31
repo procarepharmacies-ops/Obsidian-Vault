@@ -1,5 +1,0 @@
-SystemSculpt diagnostics session 20260807-085436 (plugin v5.6.0)
-{"timestamp":"2026-08-07T22:15:59.200Z","level":"error","message":"init:timeout","context":{"source":"InitializationTracer","metadata":{"phase":"workspace.layoutReady","id":35,"elapsedMs":239515.30000001192,"timeoutMs":120000}}}
-{"timestamp":"2026-08-07T22:15:59.235Z","level":"error","message":"init:timeout","context":{"source":"InitializationTracer","metadata":{"phase":"lifecycle.layout.updates.schedule","id":36,"elapsedMs":238054.19999998808,"timeoutMs":120000}}}
-{"timestamp":"2026-08-07T22:16:59.062Z","level":"error","message":"init:late","context":{"source":"InitializationTracer","metadata":{"phase":"lifecycle.layout.updates.schedule","id":36,"durMs":297871.59999999404,"durationMs":297870.4}}}
-{"timestamp":"2026-08-07T22:16:59.064Z","level":"error","message":"init:late","context":{"source":"InitializationTracer","metadata":{"phase":"workspace.layoutReady","id":35,"registeredAtMs":58642962.5,"durMs":299372.6999999881,"elapsedSinceLoadMs":58942336.2}}}
